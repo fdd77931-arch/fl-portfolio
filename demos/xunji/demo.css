@@ -1,0 +1,36 @@
+:root {
+  color-scheme: light;
+  color: #193d34;
+  background: #edf2e9;
+  font: 16px/1.65 system-ui, "PingFang SC", sans-serif;
+}
+* { box-sizing: border-box; }
+body { margin: 0; }
+header, main { width: min(90%, 1180px); margin: auto; }
+header { display: flex; justify-content: space-between; flex-wrap: wrap; gap: 12px; padding: 20px 0; border-bottom: 1px solid #becfc4; font-size: .875rem; }
+a { color: #235346; text-underline-offset: .25em; }
+main { padding: clamp(36px, 7vw, 90px) 0; }
+.tag { font-size: .8rem; letter-spacing: .09em; color: #445f52; }
+h1 { font: 600 clamp(2.6rem, 6vw, 5rem)/1.12 "Songti SC", Georgia, serif; margin: 16px 0; }
+.intro { color: #435d50; margin-bottom: 32px; }
+.stage { display: grid; grid-template-columns: 190px minmax(0,1fr); gap: 22px; }
+ol { list-style: none; margin: 0; padding: 0; }
+ol button { width: 100%; text-align: left; }
+button { background: #f7f9f4; color: inherit; border: 1px solid #b6c9bb; border-radius: 8px; min-height: 44px; padding: 10px 14px; font: inherit; cursor: pointer; }
+button span { margin-right: 8px; font-size: .75rem; }
+button[aria-current], #next { background: #235346; color: #fff; }
+button:focus-visible, a:focus-visible { outline: 3px solid #127363; outline-offset: 3px; }
+li + li { margin-top: 8px; }
+figure { margin: 0; background: #fffefa; border: 1px solid #becfc4; border-radius: 16px; overflow: hidden; box-shadow: 0 20px 48px #193d3418; }
+img { display: block; width: 100%; height: auto; aspect-ratio: 1.44; object-fit: contain; background: #eaf1ec; }
+figcaption { display: flex; gap: 12px; justify-content: space-between; align-items: center; padding: 12px 20px; }
+figcaption p { margin: 0; font-size: .875rem; }
+#next { flex-shrink: 0; }
+@media(max-width: 700px) {
+  .stage { grid-template-columns: 1fr; }
+  ol { display: flex; gap: 6px; flex-wrap: wrap; }
+  li + li { margin: 0; }
+  ol button { font-size: .75rem; padding: 8px; }
+  button span { margin-right: 3px; }
+  figcaption { padding: 12px; }
+}
