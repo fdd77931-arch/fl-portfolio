@@ -58,3 +58,11 @@ main { padding-top:24px; }
 }
 
 @media(max-width:740px){ .hero-art { background-size:auto 95%; background-position:56% center; } }
+
+.first-aid { margin-top:20px; padding-top:16px; border-top:1px solid var(--line); }
+.first-aid h3 { margin:0 0 5px; font-size:17px; }
+.first-aid details { margin:10px 0; padding:0 12px; border:1px solid var(--line); border-radius:10px; background:#f5faff; scroll-margin-top:12px; }
+.first-aid summary { color:var(--blue); }
+.first-aid ol { padding-left:20px; }
+.first-aid li { margin-bottom:8px; }
+.first-aid .first-aid-sources { font-size:12px; margin:10px 0 0; }
