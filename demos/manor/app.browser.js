@@ -788,7 +788,25 @@ function moveItemWithKeyboard(event) {
   saveState(appState);
 }
 
+function openInventory() {
+  const list = byId("bag-items");
+  list.replaceChildren();
+  const owned = SHOP_ITEMS.filter(item => appState.ownedItemIds.includes(item.id));
+  for (const item of owned) {
+    const row = createElement("div", "bag-row");
+    const picture = document.createElement("img");
+    picture.src = "./assets/objects/" + item.id + ".webp";
+    picture.alt = "";
+    row.append(picture, createElement("strong", "", item.name),
+      createElement("small", "", item.placement === "indoor" ? "小屋" : "庭院"));
+    list.append(row);
+  }
+  if (!owned.length) list.textContent = "背包还是空的。打卡攒金币，在庄园商店买下第一件物品吧。";
+  byId("inventory").showModal();
+}
+
 function bindEvents() {
+  byId("open-bag").addEventListener("click", openInventory);
   byId("manor-scene").addEventListener("keydown", moveItemWithKeyboard);
   byId("habit-list")?.addEventListener("click", handleHabitClick);
   byId("shop-list")?.addEventListener("click", handleShopClick);
