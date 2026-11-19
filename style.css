@@ -194,6 +194,15 @@ a:is(:hover, :focus-visible) .paw-badge {
 a:is(:hover, :focus-visible) .paw-icon { transform: rotate(-13deg) scale(1.08); }
 a:active .paw-icon { transform: scale(.87); }
 
+.contact-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 30px;
+}
+
+.contact-links .button { margin-top: 0; }
+
 @media (max-width: 740px) {
   .cover-paw { --paw-badge-size: 36px; }
   .hero-visual .cover-paw { right: 12px; bottom: 12px; }
