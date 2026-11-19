@@ -112,8 +112,8 @@
     "en": "Health Questions & Emergency Signals",
     "cat": "Healthcare AI",
     "kind": "AI",
-    "desc": "打开网页提问，也可以先查看常见急症危险信号。",
-    "intro": "中文健康科普网页，使用 DeepSeek 解释一般健康问题，并提供独立的急症危险信号筛查和求助入口。",
+    "desc": "用中文问健康问题，查看指南出处和 DeepSeek 补充。",
+    "intro": "循迹从中英文资料中检索相关指南和健康主题，在回答中展示引文。资料不足时单独标注 DeepSeek 补充，并提供独立的急症危险信号入口。",
     "tags": [
       "健康知识问答",
       "10 类危险信号",
@@ -126,7 +126,8 @@
     ],
     "url": "demos/xunji/",
     "cta": "打开健康问答",
-    "color": "mint",
+    "color": "blue",
+    "cover": "healthcare-medical-blue.webp",
     "metrics": [],
     "scope": "科普问答与危险信号提示各自运行。症状有疑问时，请联系专业人员。",
     "flow": [
@@ -136,7 +137,7 @@
     ],
     "challenge": "让访客可以快速提出一般健康问题，并能在需要时直接找到急救入口。",
     "result": "已实现输入、反馈与移动端布局。清单与关键词触发覆盖有限，无法排除急症。",
-    "image": "assets/healthcare-screen.webp"
+    "image": "assets/healthcare-medical-blue.webp"
   },
   {
     "id": "pharmagenome",
