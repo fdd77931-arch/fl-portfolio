@@ -29,7 +29,7 @@
         <div class="panel-heading"><h2 id="ask-heading">健康问答</h2><span class="pill" id="model-state" role="status">正在连接 DeepSeek</span></div>
         <p class="connection-note" id="connection-note" hidden>实时问答未连接。可以重试，或查看下方的预置示例。</p>
         <div id="conversation" class="conversation" aria-live="polite">
-          <p id="intro">可以问血压术语、睡眠习惯等问题。回答先给要点，再列依据、原文和建议。</p>
+          <p id="intro">可以问疾病概念、指南涵盖的主题或就诊准备。有依据时列出引文，知识库未覆盖时标明 DeepSeek 补充。</p>
         </div>
         <div class="examples" id="examples" aria-label="填写示例问题">
           <button type="button" data-example="收缩压和舒张压有什么区别？">血压术语</button>
@@ -44,7 +44,13 @@
         </form>
         <details class="library" id="library">
           <summary>浏览健康知识库</summary>
-          <div id="catalog" aria-live="polite"></div>
+          <label for="library-query">搜索资料名称或关键词</label>
+          <input type="search" id="library-query" placeholder="例如：高血压、asthma">
+          <label for="library-type">资料类型</label>
+          <select id="library-type"><option value="">全部资料</option><option value="guideline">临床指南</option><option value="guide-index">指南目录</option><option value="health-topic">健康科普</option></select>
+          <p id="library-count" role="status"></p>
+          <div id="catalog"></div>
+          <button type="button" class="reset" id="more-records" hidden>查看更多资料</button>
         </details>
         <details class="sample-answer">
           <summary>查看预置科普示例</summary>

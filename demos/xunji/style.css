@@ -31,3 +31,6 @@ footer{color:var(--muted);font-size:11px;margin-top:25px;display:flex;flex-wrap:
 .message article a, .library a { overflow-wrap: anywhere; text-underline-offset: 3px; }
 .message article small, .library small { display: block; color: var(--muted); }
 #catalog { max-height: 340px; overflow: auto; font-size: 14px; }
+.library label { display:block; margin:8px 0 4px; font-size:13px; font-weight:650; }
+.library input, .library select { max-width:100%; min-height:38px; padding:6px 10px; border:1px solid var(--line); border-radius:8px; background:white; }
+#library-count { color:var(--muted); font-size:12px; }

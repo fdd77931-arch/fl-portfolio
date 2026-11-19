@@ -54,15 +54,42 @@ function appendText(parent, tag, text) {
 
 function appendSource(parent, source, answered = '') {
   const item = document.createElement('article');
+  const types = {guideline: '临床指南', 'guide-index': '指南目录', 'health-topic': '健康科普'};
+  if (types[source.type]) appendText(item, 'small', types[source.type]);
   const context = answered ? source.fact.replace(answered, '').trim() : source.fact;
   if (context) appendText(item, 'p', context);
   const link = appendText(item, 'a', source.publisher + ' · ' + source.title + ' ↗');
   link.href = source.url;
   link.target = '_blank';
   link.rel = 'noopener noreferrer';
-  appendText(item, 'small', source.version);
+  appendText(item, 'small', [source.version, source.credit || source.attribution, source.license, source.copyright].filter(Boolean).join(' · '));
+  if (source.licenseUrl) {
+    const license = appendText(item, 'a', '资料许可');
+    license.href = source.licenseUrl;
+    license.rel = 'noopener noreferrer';
+    license.target = '_blank';
+  }
   parent.append(item);
 }
+
+let library = [];
+let visibleCount = 12;
+function renderLibrary() {
+  const query = $('library-query').value.trim().toLowerCase();
+  const type = $('library-type').value;
+  const matches = library.filter(record => (!type || type === record.type) &&
+    (!query || [record.title, record.publisher, ...record.terms].join(' ').toLowerCase().includes(query)));
+  const shown = matches.slice(0, visibleCount);
+  $('library-count').textContent = '匹配 ' + matches.length + ' 条 · 已显示 ' + shown.length + ' 条';
+  const fragment = document.createDocumentFragment();
+  for (const record of shown) appendSource(fragment, record);
+  $('catalog').replaceChildren(fragment);
+  $('more-records').hidden = shown.length >= matches.length;
+}
+for (const id of ['library-query', 'library-type']) {
+  $(id).addEventListener('input', () => { visibleCount = 12; renderLibrary(); });
+}
+$('more-records').addEventListener('click', () => { visibleCount += 12; renderLibrary(); });
 
 $('library').addEventListener('toggle', async () => {
   if (!$('library').open || $('catalog').dataset.loaded) return;
@@ -71,9 +98,8 @@ $('library').addEventListener('toggle', async () => {
   try {
     const response = await fetch('./knowledge.json');
     if (!response.ok) throw new Error('unavailable');
-    const records = await response.json();
-    catalog.replaceChildren();
-    for (const record of records) appendSource(catalog, record);
+    library = await response.json();
+    renderLibrary();
     catalog.dataset.loaded = 'true';
   } catch {
     catalog.textContent = '暂时无法读取资料。收起后再次展开可重试。';
@@ -156,7 +182,7 @@ form.addEventListener('submit', async (event) => {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ question: text }),
-      signal: AbortSignal.any([controller.signal, AbortSignal.timeout(18000)]),
+      signal: AbortSignal.any([controller.signal, AbortSignal.timeout(38000)]),
     });
     const result = await response.json();
     if (result.kind === 'emergency') {
@@ -169,6 +195,11 @@ form.addEventListener('submit', async (event) => {
         appendText(pending, 'h3', '依据与出处');
         for (const source of result.sources) appendSource(pending, source, result.answer);
         appendText(pending, 'h3', '下一步建议');
+        appendText(pending, 'p', result.suggestion);
+      } else if (result.mode === 'model') {
+        pending.replaceChildren();
+        appendText(pending, 'strong', result.answer);
+        appendText(pending, 'h3', 'DeepSeek 补充 · 未匹配到充分的知识库依据');
         appendText(pending, 'p', result.suggestion);
       } else {
         pending.textContent = result.answer;
