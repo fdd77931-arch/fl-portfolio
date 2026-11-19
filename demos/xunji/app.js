@@ -182,7 +182,7 @@ form.addEventListener('submit', async (event) => {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ question: text }),
-      signal: AbortSignal.any([controller.signal, AbortSignal.timeout(38000)]),
+      signal: AbortSignal.any([controller.signal, AbortSignal.timeout(52000)]),
     });
     const result = await response.json();
     if (result.kind === 'emergency') {
@@ -194,6 +194,10 @@ form.addEventListener('submit', async (event) => {
         appendText(pending, 'strong', result.answer);
         appendText(pending, 'h3', '依据与出处');
         for (const source of result.sources) appendSource(pending, source, result.answer);
+        if (result.supplement) {
+          appendText(pending, 'h3', 'DeepSeek 补充 · 一般就医与康复信息');
+          appendText(pending, 'p', result.supplement);
+        }
         appendText(pending, 'h3', '下一步建议');
         appendText(pending, 'p', result.suggestion);
       } else if (result.mode === 'model') {
