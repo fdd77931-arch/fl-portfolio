@@ -37,13 +37,48 @@ for (const signal of signals) {
 }
 
 function message(text, kind) {
-  const element = document.createElement('p');
+  const element = document.createElement('div');
   element.className = 'message ' + kind;
   element.textContent = text;
   conversation.append(element);
   conversation.scrollTop = conversation.scrollHeight;
   return element;
 }
+
+function appendText(parent, tag, text) {
+  const child = document.createElement(tag);
+  child.textContent = text;
+  parent.append(child);
+  return child;
+}
+
+function appendSource(parent, source, answered = '') {
+  const item = document.createElement('article');
+  const context = answered ? source.fact.replace(answered, '').trim() : source.fact;
+  if (context) appendText(item, 'p', context);
+  const link = appendText(item, 'a', source.publisher + ' · ' + source.title + ' ↗');
+  link.href = source.url;
+  link.target = '_blank';
+  link.rel = 'noopener noreferrer';
+  appendText(item, 'small', source.version);
+  parent.append(item);
+}
+
+$('library').addEventListener('toggle', async () => {
+  if (!$('library').open || $('catalog').dataset.loaded) return;
+  const catalog = $('catalog');
+  catalog.textContent = '正在读取来源…';
+  try {
+    const response = await fetch('./knowledge.json');
+    if (!response.ok) throw new Error('unavailable');
+    const records = await response.json();
+    catalog.replaceChildren();
+    for (const record of records) appendSource(catalog, record);
+    catalog.dataset.loaded = 'true';
+  } catch {
+    catalog.textContent = '暂时无法读取资料。收起后再次展开可重试。';
+  }
+});
 
 function screenResult(mode) {
   screenActive = true;
@@ -128,7 +163,16 @@ form.addEventListener('submit', async (event) => {
       pending.remove();
       screenResult('keywords');
     } else if (result.kind === 'answer') {
-      pending.textContent = result.answer;
+      if (result.sources?.length) {
+        pending.replaceChildren();
+        appendText(pending, 'strong', result.answer);
+        appendText(pending, 'h3', '依据与出处');
+        for (const source of result.sources) appendSource(pending, source, result.answer);
+        appendText(pending, 'h3', '下一步建议');
+        appendText(pending, 'p', result.suggestion);
+      } else {
+        pending.textContent = result.answer;
+      }
       question.value = '';
     } else {
       pending.classList.add('error');

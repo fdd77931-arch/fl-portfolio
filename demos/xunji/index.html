@@ -29,7 +29,7 @@
         <div class="panel-heading"><h2 id="ask-heading">健康问答</h2><span class="pill" id="model-state" role="status">正在连接 DeepSeek</span></div>
         <p class="connection-note" id="connection-note" hidden>实时问答未连接。可以重试，或查看下方的预置示例。</p>
         <div id="conversation" class="conversation" aria-live="polite">
-          <p id="intro">可以问健康概念、体检术语，或就诊前该如何整理问题。</p>
+          <p id="intro">可以问血压术语、睡眠习惯等问题。回答先给要点，再列依据、原文和建议。</p>
         </div>
         <div class="examples" id="examples" aria-label="填写示例问题">
           <button type="button" data-example="收缩压和舒张压有什么区别？">血压术语</button>
@@ -42,11 +42,15 @@
           <p id="privacy">请勿填写身份信息、病历或联系方式。发送即同意将本条问题提交给 DeepSeek。</p>
           <div class="actions"><button class="reset" type="button" id="clear">清空问答</button><button id="send" type="submit">发送问题 <span aria-hidden="true">↑</span></button></div>
         </form>
+        <details class="library" id="library">
+          <summary>浏览健康知识库</summary>
+          <div id="catalog" aria-live="polite"></div>
+        </details>
         <details class="sample-answer">
           <summary>查看预置科普示例</summary>
           <p><strong>复诊前可以整理哪些信息？</strong></p>
-          <p>可以记下想问医生的问题和需要讨论的变化，带上现用药物、维生素及补充剂的清单，以及这次需要讨论的检查结果。</p>
-          <p class="muted">预置示例 · <a href="https://medlineplus.gov/ency/patientinstructions/000860.htm" target="_blank" rel="noopener noreferrer">MedlinePlus</a></p>
+          <p>复诊前可以把想讨论的问题列成清单，把最关心的一项排在前面。就诊时告诉医生近期用药有哪些变化，以及自己注意到了什么。</p>
+          <p class="muted">预置示例 · <a href="https://health.nih.gov/health-topics-a-z/prepare-for-appointment" target="_blank" rel="noopener noreferrer">NIH 就诊准备指南</a></p>
         </details>
       </section>
       <section class="panel screen" aria-labelledby="screen-heading">

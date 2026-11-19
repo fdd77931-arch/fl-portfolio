@@ -25,3 +25,9 @@ footer{color:var(--muted);font-size:11px;margin-top:25px;display:flex;flex-wrap:
   font-size: 14px;
 }
 .sample-answer p { margin: 10px 0 0; }
+.conversation .message h3 { margin: 14px 0 4px; color: var(--olive); font-size: 13px; }
+.message p, .library p { margin: 4px 0; }
+.message article, .library article { border-left: 2px solid var(--line); padding-left: 12px; margin: 8px 0 14px; }
+.message article a, .library a { overflow-wrap: anywhere; text-underline-offset: 3px; }
+.message article small, .library small { display: block; color: var(--muted); }
+#catalog { max-height: 340px; overflow: auto; font-size: 14px; }
