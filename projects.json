@@ -1,7 +1,8 @@
 [
   {
     "id": "drug-safety",
-    "name": "循证 · 药物安全助手",
+    "name": "药物安全助手",
+    "cover": "drug-safety-current.webp",
     "en": "Drug Safety Intelligence",
     "cat": "Healthcare AI",
     "kind": "AI",
@@ -40,7 +41,7 @@
     ],
     "challenge": "药物安全信息分散在研究文献中，需要把回答与可核查的证据连接起来。",
     "result": "完成知识组织、检索与循证回答的工程实践。文献与片段数量来自本人简历，当前展示未重新运行完整评测。",
-    "image": "assets/drug-safety-screen.webp"
+    "image": "assets/drug-safety-current.webp"
   },
   {
     "id": "hbv-insights",
@@ -78,6 +79,7 @@
   {
     "id": "manor",
     "name": "自律庄园",
+    "cover": "manor-current.webp",
     "en": "A Habit to Build On",
     "cat": "Web Product",
     "kind": "Web",
@@ -104,16 +106,16 @@
     ],
     "challenge": "用持续可见的小反馈，增强重复行为的参与感。",
     "result": "交付可访问的游戏化交互 Demo。",
-    "image": "assets/manor-screen.webp"
+    "image": "assets/manor-current.webp"
   },
   {
     "id": "healthcare",
-    "name": "循迹 · 健康问答",
+    "name": "健康问答 Agent",
     "en": "Health Questions & Emergency Signals",
     "cat": "Healthcare AI",
     "kind": "AI",
     "desc": "用中文问健康问题，查看指南出处和 DeepSeek 补充。",
-    "intro": "循迹从中英文资料中检索相关指南和健康主题，在回答中展示引文。资料不足时单独标注 DeepSeek 补充，并提供独立的急症危险信号入口。",
+    "intro": "从中英文资料中检索相关指南和健康主题，在回答中展示引文。资料不足时单独标注 DeepSeek 补充，并提供独立的急症危险信号入口。",
     "tags": [
       "健康知识问答",
       "10 类危险信号",
@@ -127,7 +129,7 @@
     "url": "demos/xunji/",
     "cta": "打开健康问答",
     "color": "blue",
-    "cover": "healthcare-medical-blue.webp",
+    "cover": "healthcare-current.webp",
     "metrics": [],
     "scope": "科普问答与危险信号提示各自运行。症状有疑问时，请联系专业人员。",
     "flow": [
@@ -137,7 +139,7 @@
     ],
     "challenge": "让访客可以快速提出一般健康问题，并能在需要时直接找到急救入口。",
     "result": "已实现输入、反馈与移动端布局。清单与关键词触发覆盖有限，无法排除急症。",
-    "image": "assets/healthcare-medical-blue.webp"
+    "image": "assets/healthcare-current.webp"
   },
   {
     "id": "pharmagenome",
