@@ -76,6 +76,37 @@
     "image": "assets/hbv-insights-screen.webp"
   },
   {
+    "id": "manor",
+    "name": "自律庄园",
+    "en": "A Habit to Build On",
+    "cat": "Web Product",
+    "kind": "Web",
+    "desc": "让每一次打卡，成为庄园里的小变化。",
+    "intro": "以打卡、金币、庄园布置和管家反馈构建游戏化身心管理 Demo。",
+    "tags": [
+      "每日打卡",
+      "庄园养成",
+      "即时反馈"
+    ],
+    "tech": [
+      "Web App",
+      "Gamification"
+    ],
+    "url": "demos/manor/",
+    "cta": "体验产品",
+    "color": "mint",
+    "metrics": [],
+    "scope": "游戏化管理演示，不将习惯记录等同于医疗效果。",
+    "flow": [
+      "完成打卡",
+      "获得反馈",
+      "布置庄园"
+    ],
+    "challenge": "用持续可见的小反馈，增强重复行为的参与感。",
+    "result": "交付可访问的游戏化交互 Demo。",
+    "image": "assets/manor-screen.webp"
+  },
+  {
     "id": "healthcare",
     "name": "循迹 · 健康问答",
     "en": "Health Questions & Emergency Signals",
@@ -106,47 +137,6 @@
     "challenge": "让访客可以快速提出一般健康问题，并能在需要时直接找到急救入口。",
     "result": "已实现输入、反馈与移动端布局。清单与关键词触发覆盖有限，无法排除急症。",
     "image": "assets/healthcare-screen.webp"
-  },
-  {
-    "id": "terminal",
-    "name": "终端数据收集",
-    "en": "Order from Fragmentation",
-    "cat": "Enterprise",
-    "kind": "Enterprise",
-    "desc": "让分散填报，成为有序的数据流程。",
-    "intro": "面向医药业务终端收集场景，连接逐级筛选、字段校验、在线填报与数据汇总，支持月度复用。",
-    "tags": [
-      "逐级筛选",
-      "字段校验",
-      "自动汇总"
-    ],
-    "tech": [
-      "Supabase",
-      "GitHub Pages"
-    ],
-    "url": "https://fdd77931-arch.github.io/terminal-collect/?p=2026-09#/fill",
-    "cta": "打开系统",
-    "color": "blue",
-    "metrics": [
-      [
-        "321",
-        "家终端"
-      ],
-      [
-        "21",
-        "个统一字段"
-      ]
-    ],
-    "scope": "终端规模与治理字段来自本人简历。请仅在已授权范围内使用演示系统。",
-    "flow": [
-      "选择终端",
-      "填报与校验",
-      "结构化收集",
-      "指标汇总"
-    ],
-    "challenge": "分散表格中的名称差异与混填，增加了回收和汇总成本。",
-    "result": "围绕 7 个区域、31 省、150 城的终端数据开展治理，并实现静态网页与 Supabase 的数字化交付。",
-    "image": "assets/terminal-screen.webp"
   },
   {
     "id": "pharmagenome",
@@ -242,34 +232,44 @@
     "image": "assets/calculator-screen.webp"
   },
   {
-    "id": "manor",
-    "name": "自律庄园",
-    "en": "A Habit to Build On",
-    "cat": "Web Product",
-    "kind": "Web",
-    "desc": "让每一次打卡，成为庄园里的小变化。",
-    "intro": "以打卡、金币、庄园布置和管家反馈构建游戏化身心管理 Demo。",
+    "id": "terminal",
+    "name": "终端数据收集",
+    "en": "Order from Fragmentation",
+    "cat": "Enterprise",
+    "kind": "Enterprise",
+    "desc": "让分散填报，成为有序的数据流程。",
+    "intro": "面向医药业务终端收集场景，连接逐级筛选、字段校验、在线填报与数据汇总，支持月度复用。",
     "tags": [
-      "每日打卡",
-      "庄园养成",
-      "即时反馈"
+      "逐级筛选",
+      "字段校验",
+      "自动汇总"
     ],
     "tech": [
-      "Web App",
-      "Gamification"
+      "Supabase",
+      "GitHub Pages"
     ],
-    "url": "demos/manor/",
-    "cta": "体验产品",
-    "color": "mint",
-    "metrics": [],
-    "scope": "游戏化管理演示，不将习惯记录等同于医疗效果。",
+    "url": "https://fdd77931-arch.github.io/terminal-collect/?p=2026-09#/fill",
+    "cta": "打开系统",
+    "color": "blue",
+    "metrics": [
+      [
+        "321",
+        "家终端"
+      ],
+      [
+        "21",
+        "个统一字段"
+      ]
+    ],
+    "scope": "终端规模与治理字段来自本人简历。请仅在已授权范围内使用演示系统。",
     "flow": [
-      "完成打卡",
-      "获得反馈",
-      "布置庄园"
+      "选择终端",
+      "填报与校验",
+      "结构化收集",
+      "指标汇总"
     ],
-    "challenge": "用持续可见的小反馈，增强重复行为的参与感。",
-    "result": "交付可访问的游戏化交互 Demo。",
-    "image": "assets/manor-screen.webp"
+    "challenge": "分散表格中的名称差异与混填，增加了回收和汇总成本。",
+    "result": "围绕 7 个区域、31 省、150 城的终端数据开展治理，并实现静态网页与 Supabase 的数字化交付。",
+    "image": "assets/terminal-screen.webp"
   }
 ]
