@@ -1,2 +1,70 @@
 <!doctype html>
-<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>循迹 · 健康问答</title><meta http-equiv="refresh" content="0; url=https://xunji-health.fdd77931-drug-safety.workers.dev/"></head><body><p>循迹已迁往<a href="https://xunji-health.fdd77931-drug-safety.workers.dev/">健康问答新版</a>。</p></body></html>
+<html lang="zh-CN" data-api-base="https://xunji-health.fdd77931-drug-safety.workers.dev">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#eef1e8">
+  <meta name="description" content="循迹提供一般健康科普和常见急症危险信号提示。">
+  <title>循迹 · 健康问答</title>
+  <link rel="stylesheet" href="./style.css">
+  <script src="./app.js" type="module"></script>
+</head>
+<body>
+  <header>
+    <a class="brand" href="./" aria-label="循迹首页"><span class="mark">循</span><span>循迹 <small>健康问答</small></span></a>
+    <a class="back" href="https://fdd77931-arch.github.io/fl-portfolio/healthcare.html">← 作品集</a>
+  </header>
+  <main>
+    <div class="heading">
+      <p class="eyebrow">健康科普 · 危险信号筛查</p>
+      <h1>今天想了解什么？</h1>
+      <p>提一个健康问题，或查看当前情况是否出现常见急症危险信号。</p>
+    </div>
+    <aside class="alert">
+      <div><strong>情况紧急时，请先联系急救</strong><p>中国大陆拨打 120，其他地区拨打当地急救号码。</p></div>
+      <a href="tel:120">拨打 120 ↗</a>
+    </aside>
+    <div class="workspace">
+      <section class="panel questions" aria-labelledby="ask-heading">
+        <div class="panel-heading"><h2 id="ask-heading">健康问答</h2><span class="pill" id="model-state" role="status">正在连接 DeepSeek</span></div>
+        <p class="connection-note" id="connection-note" hidden>实时问答未连接。可以重试，或查看下方的预置示例。</p>
+        <div id="conversation" class="conversation" aria-live="polite">
+          <p id="intro">可以问健康概念、体检术语，或就诊前该如何整理问题。</p>
+        </div>
+        <div class="examples" id="examples" aria-label="填写示例问题">
+          <button type="button" data-example="收缩压和舒张压有什么区别？">血压术语</button>
+          <button type="button" data-example="复诊前可以整理哪些信息？">复诊准备</button>
+          <button type="button" data-example="什么是睡眠卫生？">睡眠习惯</button>
+        </div>
+        <form id="ask">
+          <label for="question">你的问题</label>
+          <textarea id="question" rows="3" maxlength="1200" required placeholder="例如：收缩压和舒张压有什么区别？" aria-describedby="privacy"></textarea>
+          <p id="privacy">请勿填写身份信息、病历或联系方式。发送即同意将本条问题提交给 DeepSeek。</p>
+          <div class="actions"><button class="reset" type="button" id="clear">清空问答</button><button id="send" type="submit">发送问题 <span aria-hidden="true">↑</span></button></div>
+        </form>
+        <details class="sample-answer">
+          <summary>查看预置科普示例</summary>
+          <p><strong>复诊前可以整理哪些信息？</strong></p>
+          <p>可以记下想问医生的问题和需要讨论的变化，带上现用药物、维生素及补充剂的清单，以及这次需要讨论的检查结果。</p>
+          <p class="muted">预置示例 · <a href="https://medlineplus.gov/ency/patientinstructions/000860.htm" target="_blank" rel="noopener noreferrer">MedlinePlus</a></p>
+        </details>
+      </section>
+      <section class="panel screen" aria-labelledby="screen-heading">
+        <div class="panel-heading"><h2 id="screen-heading">急症危险信号</h2><span class="pill">10 类</span></div>
+        <p>如果描述的是正在发生的情况，请查看下列信号。有任何一项就应立即求助。</p>
+        <details id="signs"><summary>查看 10 类危险信号</summary><ol id="signals"></ol></details>
+        <div class="screen-actions">
+          <button class="emergency" type="button" data-choice="emergency">有上述信号</button>
+          <button class="uncertain" type="button" data-choice="uncertain">我不确定</button>
+        </div>
+        <div id="screen-result" tabindex="-1" class="screen-result" role="status" hidden></div>
+        <p class="muted">清单无法排除急症。若症状严重、突然出现或迅速加重，请及时联系专业人员。</p>
+      </section>
+    </div>
+    <footer>
+      <span>循迹提供一般健康科普。请向专业人员咨询诊断、用药和治疗。</span>
+      <span>筛查参考 <a href="https://medlineplus.gov/ency/article/001927.htm" target="_blank" rel="noopener noreferrer">MedlinePlus</a> · <a href="https://cpr.heart.org/en/resuscitation-science/2024-first-aid-guidelines" target="_blank" rel="noopener noreferrer">AHA / Red Cross</a></span>
+    </footer>
+  </main>
+</body>
+</html>

@@ -124,7 +124,7 @@
       "Cloudflare Workers",
       "SQLite"
     ],
-    "url": "https://xunji-health.fdd77931-drug-safety.workers.dev/",
+    "url": "demos/xunji/",
     "cta": "打开健康问答",
     "color": "mint",
     "metrics": [],
