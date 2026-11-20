@@ -62,6 +62,8 @@ docker build -f backend/Dockerfile -t health-ai .
 
 在生产服务的密钥管理处设置 `DASHSCOPE_API_KEY`、两个地域端点和可选导入令牌。用与 API 相同的镜像、环境变量和挂载卷，先执行一次 `python -m health_ai.index --smoke`。这个检查也可在发布后单独运行。问答索引未就绪时，容器仍提供来源目录和急症判断。先访问后端 HTTPS 下的演示并提交测试问题，确认 `/api/health` 的 `connected` 和原文链接。随后把 API origin 填到 `demos/xunji/config.js`，检查 GitHub Pages origin 的 CORS，再发布前端。
 
+北京函数计算的签名验收包见 [FC 验收说明](deploy/fc-preview/README.md)。
+
 ## 评估
 
 ```sh
