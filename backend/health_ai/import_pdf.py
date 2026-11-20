@@ -5,6 +5,7 @@ import json
 import os
 import re
 from pathlib import Path
+from urllib.parse import urlsplit
 
 import httpx
 from dotenv import load_dotenv
@@ -38,8 +39,11 @@ def main():
     token = os.getenv("HEALTH_AI_INGEST_TOKEN")
     if not token:
         parser.error("Set HEALTH_AI_INGEST_TOKEN")
-    if not (args.api.startswith("https://") or args.api in {"http://localhost:8080", "http://127.0.0.1:8080"}):
-        parser.error("Use HTTPS or the default local service")
+    target = urlsplit(args.api)
+    local = target.hostname in {"localhost", "127.0.0.1", "::1"}
+    if (not target.hostname or target.username or target.password or target.query or target.fragment
+            or not (target.scheme == "https" or (target.scheme == "http" and local))):
+        parser.error("Use HTTPS or a local loopback URL")
     raw = args.pdf.read_bytes()
     if len(raw) > 1_000_000:
         parser.error("Import one authorized document of at most 1 MB at a time")
@@ -60,12 +64,13 @@ def main():
                 records.append(record.model_dump(mode="json"))
     if not records or len(records) > 24:
         parser.error("This import needs 1–24 extractable chunks. Split longer licensed documents into sections.")
-    response = httpx.post(args.api.rstrip("/") + "/api/ingest", timeout=120, headers={
-        "Authorization": "Bearer " + token,
-    }, json={
-        "sources": records, "media_type": "application/pdf", "artifact_base64": base64.b64encode(raw).decode()
-    })
-    response.raise_for_status()
+    with httpx.Client(timeout=120, trust_env=False) as client:
+        response = client.post(args.api.rstrip("/") + "/api/ingest", headers={
+            "Authorization": "Bearer " + token,
+        }, json={
+            "sources": records, "media_type": "application/pdf", "artifact_base64": base64.b64encode(raw).decode()
+        })
+        response.raise_for_status()
     print(json.dumps(response.json(), ensure_ascii=False))
 
 
