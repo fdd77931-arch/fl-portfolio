@@ -11,5 +11,5 @@ export const signals = [
   '突然剧烈疼痛，例如突发剧烈头痛或腹痛',
 ];
 
-export const urgentText = /叫不醒|不省人事|没有呼吸|停止呼吸|喘不过气|呼吸困难|嘴唇发紫|口唇发青|窒息|胸痛|胸口压迫|口角歪斜|一侧无力|说话困难|大量出血|出血不止|抽搐|喉咙肿|舌头肿|中毒|药物过量|严重外伤|严重烧伤|溺水|突发剧烈|突然.{0,6}(剧烈|撕裂)|unconscious|chest pain|cannot breathe|severe bleeding|overdose/iu;
+export const urgentText = /叫不醒|不省人事|意识障碍|意识不清|昏迷|失去意识|没有呼吸|停止呼吸|喘不过气|呼吸不上气|呼吸困难|嘴唇发紫|口唇发青|窒息|胸痛|胸口(?:突然)?(?:痛|疼|压迫|很闷)|胸部压迫|疑似卒中|突然中风|嘴歪|一侧不能动|说不清话|口角歪斜|半边脸.{0,5}歪|脸.{0,5}突然歪|(?:左|右)(?:手|臂|胳膊).{0,6}抬不起来|一侧无力|说话困难|大量出血|出血不止|(?:流血|出血|血流)止不住|抽搐|喉咙肿|舌头肿|中毒|药物过量|吃了太多药|吞了很多药|严重外伤|严重烧伤|溺水|突发剧烈|突然.{0,6}(剧烈|撕裂)|unconscious|chest pain|cannot breathe|severe bleeding|overdose|准备跳楼|要跳楼|想自杀|准备自杀|想结束生命|not breathing|slurred speech|thunderclap headache|ongoing seizure|drowning/iu;
 export const emergencyCopy = '如果这些情况正在发生，请立即联系当地急救。中国大陆拨打 120。若你是在查询相关知识，可查看页面下方的急救指南。';

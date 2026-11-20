@@ -1,0 +1,1314 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.1d3 20150301//EN" "http://jats.nlm.nih.gov/publishing/1.1d3/JATS-journalpublishing1.dtd">
+<article article-type="research-article" dtd-version="1.1d3" xml:lang="en" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">
+<front>
+<journal-meta>
+<journal-id journal-id-type="nlm-ta">PLoS ONE</journal-id>
+<journal-id journal-id-type="publisher-id">plos</journal-id>
+<journal-id journal-id-type="pmc">plosone</journal-id>
+<journal-title-group>
+<journal-title>PLOS ONE</journal-title>
+</journal-title-group>
+<issn pub-type="epub">1932-6203</issn>
+<publisher>
+<publisher-name>Public Library of Science</publisher-name>
+<publisher-loc>San Francisco, CA USA</publisher-loc>
+</publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="doi">10.1371/journal.pone.0307120</article-id>
+<article-id pub-id-type="publisher-id">PONE-D-23-43503</article-id>
+<article-categories>
+<subj-group subj-group-type="heading">
+<subject>Research Article</subject>
+</subj-group>
+<subj-group subj-group-type="Discipline-v3">
+<subject>Biology and life sciences</subject><subj-group><subject>Physiology</subject><subj-group><subject>Physiological processes</subject><subj-group><subject>Sleep</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3">
+<subject>Medicine and health sciences</subject><subj-group><subject>Epidemiology</subject></subj-group></subj-group><subj-group subj-group-type="Discipline-v3">
+<subject>Medicine and health sciences</subject><subj-group><subject>Medical conditions</subject><subj-group><subject>Cardiovascular diseases</subject><subj-group><subject>Cardiovascular disease risk</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3">
+<subject>Medicine and health sciences</subject><subj-group><subject>Cardiology</subject><subj-group><subject>Cardiovascular medicine</subject><subj-group><subject>Cardiovascular diseases</subject><subj-group><subject>Cardiovascular disease risk</subject></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3">
+<subject>Research and analysis methods</subject><subj-group><subject>Research design</subject><subj-group><subject>Survey research</subject><subj-group><subject>Questionnaires</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3">
+<subject>Biology and life sciences</subject><subj-group><subject>Nutrition</subject><subj-group><subject>Diet</subject><subj-group><subject>Alcohol consumption</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3">
+<subject>Medicine and health sciences</subject><subj-group><subject>Nutrition</subject><subj-group><subject>Diet</subject><subj-group><subject>Alcohol consumption</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3">
+<subject>Biology and life sciences</subject><subj-group><subject>Psychology</subject><subj-group><subject>Psychometrics</subject></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3">
+<subject>Social sciences</subject><subj-group><subject>Psychology</subject><subj-group><subject>Psychometrics</subject></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3">
+<subject>Medicine and health sciences</subject><subj-group><subject>Public and occupational health</subject><subj-group><subject>Physical activity</subject></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3">
+<subject>Biology and life sciences</subject><subj-group><subject>Physiology</subject><subj-group><subject>Physiological parameters</subject><subj-group><subject>Body weight</subject><subj-group><subject>Body mass index</subject></subj-group></subj-group></subj-group></subj-group></subj-group></article-categories>
+<title-group>
+<article-title>Association between sleep duration and hypertension incidence: Systematic review and meta-analysis of cohort studies</article-title>
+<alt-title alt-title-type="running-head">Sleep duration and hypertension incidence</alt-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Hosseini</surname>
+<given-names>Kaveh</given-names>
+</name>
+<role content-type="http://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</role>
+<role content-type="http://credit.niso.org/contributor-roles/project-administration/">Project administration</role>
+<role content-type="http://credit.niso.org/contributor-roles/writing-review-editing/">Writing – review &amp; editing</role>
+<xref ref-type="aff" rid="aff001"><sup>1</sup></xref>
+</contrib>
+<contrib contrib-type="author" corresp="yes" xlink:type="simple">
+<contrib-id authenticated="true" contrib-id-type="orcid">https://orcid.org/0000-0003-2802-4613</contrib-id>
+<name name-style="western">
+<surname>Soleimani</surname>
+<given-names>Hamidreza</given-names>
+</name>
+<role content-type="http://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</role>
+<role content-type="http://credit.niso.org/contributor-roles/formal-analysis/">Formal analysis</role>
+<role content-type="http://credit.niso.org/contributor-roles/project-administration/">Project administration</role>
+<role content-type="http://credit.niso.org/contributor-roles/writing-review-editing/">Writing – review &amp; editing</role>
+<xref ref-type="aff" rid="aff001"><sup>1</sup></xref>
+<xref ref-type="corresp" rid="cor001">*</xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Tavakoli</surname>
+<given-names>Kiarash</given-names>
+</name>
+<role content-type="http://credit.niso.org/contributor-roles/writing-original-draft/">Writing – original draft</role>
+<role content-type="http://credit.niso.org/contributor-roles/writing-review-editing/">Writing – review &amp; editing</role>
+<xref ref-type="aff" rid="aff001"><sup>1</sup></xref>
+<xref ref-type="aff" rid="aff002"><sup>2</sup></xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<contrib-id authenticated="true" contrib-id-type="orcid">https://orcid.org/0000-0001-7485-4437</contrib-id>
+<name name-style="western">
+<surname>Maghsoudi</surname>
+<given-names>Milad</given-names>
+</name>
+<role content-type="http://credit.niso.org/contributor-roles/writing-original-draft/">Writing – original draft</role>
+<xref ref-type="aff" rid="aff003"><sup>3</sup></xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Heydari</surname>
+<given-names>Narges</given-names>
+</name>
+<role content-type="http://credit.niso.org/contributor-roles/writing-original-draft/">Writing – original draft</role>
+<xref ref-type="aff" rid="aff003"><sup>3</sup></xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Farahvash</surname>
+<given-names>Yasmin</given-names>
+</name>
+<role content-type="http://credit.niso.org/contributor-roles/writing-original-draft/">Writing – original draft</role>
+<xref ref-type="aff" rid="aff001"><sup>1</sup></xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Etemadi</surname>
+<given-names>Ali</given-names>
+</name>
+<role content-type="http://credit.niso.org/contributor-roles/writing-review-editing/">Writing – review &amp; editing</role>
+<xref ref-type="aff" rid="aff001"><sup>1</sup></xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Najafi</surname>
+<given-names>Kimia</given-names>
+</name>
+<role content-type="http://credit.niso.org/contributor-roles/writing-review-editing/">Writing – review &amp; editing</role>
+<xref ref-type="aff" rid="aff004"><sup>4</sup></xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<contrib-id authenticated="true" contrib-id-type="orcid">https://orcid.org/0009-0000-6062-1093</contrib-id>
+<name name-style="western">
+<surname>Askari</surname>
+<given-names>Mani K.</given-names>
+</name>
+<role content-type="http://credit.niso.org/contributor-roles/writing-review-editing/">Writing – review &amp; editing</role>
+<xref ref-type="aff" rid="aff005"><sup>5</sup></xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Gupta</surname>
+<given-names>Rahul</given-names>
+</name>
+<role content-type="http://credit.niso.org/contributor-roles/writing-review-editing/">Writing – review &amp; editing</role>
+<xref ref-type="aff" rid="aff006"><sup>6</sup></xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Hakim</surname>
+<given-names>Diaa</given-names>
+</name>
+<role content-type="http://credit.niso.org/contributor-roles/writing-review-editing/">Writing – review &amp; editing</role>
+<xref ref-type="aff" rid="aff007"><sup>7</sup></xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Rahimi</surname>
+<given-names>Kazem</given-names>
+</name>
+<role content-type="http://credit.niso.org/contributor-roles/writing-review-editing/">Writing – review &amp; editing</role>
+<xref ref-type="aff" rid="aff008"><sup>8</sup></xref>
+<xref ref-type="aff" rid="aff009"><sup>9</sup></xref>
+</contrib>
+</contrib-group>
+<aff id="aff001"><label>1</label> <addr-line>Tehran Heart Center, Cardiovascular Diseases Research Institute, Tehran University of Medical Sciences, Tehran, Iran</addr-line></aff>
+<aff id="aff002"><label>2</label> <addr-line>Students’ Scientific Research Center (SSRC), Tehran University of Medical Science, Tehran, Iran</addr-line></aff>
+<aff id="aff003"><label>3</label> <addr-line>Faculty of Medicine, Isfahan University of Medical Sciences, Isfahan, Iran</addr-line></aff>
+<aff id="aff004"><label>4</label> <addr-line>Hakim Children Hospital, Tehran University of Medical Science, Tehran, Iran</addr-line></aff>
+<aff id="aff005"><label>5</label> <addr-line>University of Toledo Medical Center, Toledo, Ohio, United States of America</addr-line></aff>
+<aff id="aff006"><label>6</label> <addr-line>Lehigh Valley Health Network, Allentown, Pennsylvania, United States of America</addr-line></aff>
+<aff id="aff007"><label>7</label> <addr-line>Brigham and Women’s Hospital, Harvard Medical School, Boston, Massachusetts, United States of America</addr-line></aff>
+<aff id="aff008"><label>8</label> <addr-line>Deep Medicine, Oxford Martin School, University of Oxford, Oxford, United Kingdom</addr-line></aff>
+<aff id="aff009"><label>9</label> <addr-line>Nuffield Department of Women’s and Reproductive Health, Medical Science Division, University of Oxford, Oxford, United Kingdom</addr-line></aff>
+<contrib-group>
+<contrib contrib-type="editor" xlink:type="simple">
+<name name-style="western">
+<surname>Ebrahimi</surname>
+<given-names>Mohammad Hossein</given-names>
+</name>
+<role>Editor</role>
+<xref ref-type="aff" rid="edit1"/>
+</contrib>
+</contrib-group>
+<aff id="edit1"><addr-line>Shahrood University of Medical Sciences, ISLAMIC REPUBLIC OF IRAN</addr-line></aff>
+<author-notes>
+<fn fn-type="conflict" id="coi001">
+<p>The authors have declared that no competing interests exist.</p>
+</fn>
+<corresp id="cor001">* E-mail: <email xlink:type="simple">hamid.r.soleimani90@gmail.com</email></corresp>
+</author-notes>
+<pub-date pub-type="epub">
+<day>15</day>
+<month>7</month>
+<year>2024</year>
+</pub-date>
+<pub-date pub-type="collection">
+<year>2024</year>
+</pub-date>
+<volume>19</volume>
+<issue>7</issue>
+<elocation-id>e0307120</elocation-id>
+<history>
+<date date-type="received">
+<day>30</day>
+<month>12</month>
+<year>2023</year>
+</date>
+<date date-type="accepted">
+<day>19</day>
+<month>6</month>
+<year>2024</year>
+</date>
+</history>
+<permissions>
+<copyright-year>2024</copyright-year>
+<copyright-holder>Hosseini et al</copyright-holder>
+<license xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple">
+<license-p>This is an open access article distributed under the terms of the <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+</license>
+</permissions>
+<self-uri content-type="pdf" xlink:href="info:doi/10.1371/journal.pone.0307120"/>
+<abstract>
+<sec id="sec001">
+<title>Aim</title>
+<p>Sleep duration has been suggested to be associated with hypertension (HTN). However, evidence of the nature of the relationship and its direction has been inconsistent. Therefore, we performed a meta-analysis to assess the relationship between sleep duration and risk of HTN incidence, and to distinguish more susceptible populations.</p>
+</sec>
+<sec id="sec002">
+<title>Methods</title>
+<p>PubMed, Embase, Scopus, Web of Science, and ProQuest were searched from January 2000 to May 2023 for cohort studies comparing short and long sleep durations with 7–8 hours of sleep for the risk of HTN incidence. Random-effect model (the DerSimonian-Laird method) was applied to pool risk ratios (RR) and 95% confidence interval (CI).</p>
+</sec>
+<sec id="sec003">
+<title>Results</title>
+<p>We included sixteen studies ranging from 2.4 to 18 years of follow-up duration evaluating HTN incidence in 1,044,035 people. Short sleep duration was significantly associated with a higher risk of developing HTN (HR: 1.07, 95% CI: 1.06–1.09). The association was stronger when the sleep duration was less than 5 hours (HR: 1.11, 95% CI: 1.08–1.14). In contrast to males, females (HR: 1.07, 95% CI: 1.04–1.09) were more vulnerable to developing HTN due to short sleep duration. No significant difference between different follow-up durations and age subgroups was observed. Long sleep duration was not associated with an increased incidence of HTN.</p>
+</sec>
+<sec id="sec004">
+<title>Conclusion</title>
+<p>Short sleep duration was associated with higher risk of HTN incidence, however, there was no association between long sleep duration and incidence of HTN. These findings highlight the importance of implementing target-specific preventive and interventional strategies for vulnerable populations with short sleep duration to reduce the risk of HTN.</p>
+</sec>
+</abstract>
+<funding-group>
+<funding-statement>The author(s) received no specific funding for this work.</funding-statement>
+</funding-group>
+<counts>
+<fig-count count="4"/>
+<table-count count="2"/>
+<page-count count="16"/>
+</counts>
+<custom-meta-group>
+<custom-meta id="data-availability">
+<meta-name>Data Availability</meta-name>
+<meta-value>All raw data required to replicate the results of our study are within the manuscript and its <xref ref-type="sec" rid="sec024">Supporting information</xref> files.</meta-value>
+</custom-meta>
+</custom-meta-group>
+</article-meta>
+</front>
+<body>
+<sec id="sec005" sec-type="intro">
+<title>Introduction</title>
+<p>Hypertension (HTN) is the leading preventable risk factor for numerous health conditions, particularly cardiovascular diseases, accounting for 10.8 million deaths and 235 million DALYs (Disability Adjusted Life Years) based on the reports in 2019 [<xref ref-type="bibr" rid="pone.0307120.ref001">1</xref>]. Despite the improvements in knowledge, management, and clinical care of this condition, the prevalence of HTN has grown over the past decade [<xref ref-type="bibr" rid="pone.0307120.ref002">2</xref>]. Therefore, identification of HTN risk factors, early detection of susceptible populations, and timely treatment offers substantial benefits over reduction of HTN burden.</p>
+<p>There are many possible behavioral risk factors responsible for HTN incidence including unhealthy diet [<xref ref-type="bibr" rid="pone.0307120.ref003">3</xref>], physical inactivity [<xref ref-type="bibr" rid="pone.0307120.ref004">4</xref>], smoking [<xref ref-type="bibr" rid="pone.0307120.ref005">5</xref>], alcohol consumption [<xref ref-type="bibr" rid="pone.0307120.ref006">6</xref>], and changes in sleeping patterns [<xref ref-type="bibr" rid="pone.0307120.ref007">7</xref>]. Sleep constitutes a significant portion of our daily routine, however, there has been considerable changes in the average sleep duration of population in recent years [<xref ref-type="bibr" rid="pone.0307120.ref008">8</xref>]. About one-third of the adults in the United States reported obtaining less than 7 hours of daily sleep [<xref ref-type="bibr" rid="pone.0307120.ref009">9</xref>].</p>
+<p>Both short and long sleep durations are associated to increased risk of major health problems, including diabetes, cardiovascular disease, and mortality [<xref ref-type="bibr" rid="pone.0307120.ref010">10</xref>, <xref ref-type="bibr" rid="pone.0307120.ref011">11</xref>]. Nevertheless, conflicting information has been published regarding the association between short and long sleep durations and higher risk of HTN incidence. Some studies suggested a U-shaped association between short and long sleep durations and risk of HTN incidence [<xref ref-type="bibr" rid="pone.0307120.ref012">12</xref>, <xref ref-type="bibr" rid="pone.0307120.ref013">13</xref>], while the others have failed to establish a significant association between long sleep duration and HTN [<xref ref-type="bibr" rid="pone.0307120.ref014">14</xref>–<xref ref-type="bibr" rid="pone.0307120.ref016">16</xref>]. Since the publication of these meta-analyses, other studies have been published in this regard, nevertheless, the exact relations remained unclear.</p>
+<p>To address the uncertainties in the existing literature, we conducted a systematic review and meta-analysis of cohort studies to investigate the relationship between varying durations of sleep and risk of HTN incidence. Moreover, to distinguish more vulnerable populations, we also explored the association stratified by age and sex.</p>
+</sec>
+<sec id="sec006" sec-type="materials|methods">
+<title>Methods</title>
+<p>We adhered to the guidelines outlined in the Preferred Reporting Items for Systematic Reviews and Meta-Analysis (PRISMA) throughout all phases of this meta-analysis [<xref ref-type="bibr" rid="pone.0307120.ref017">17</xref>] (<xref ref-type="supplementary-material" rid="pone.0307120.s008">S1 Table</xref>). The protocol for this study was registered and published on the International Prospective Register of Systematic Reviews (PROSPERO) (registration number CRD42023434815) on June 23, 2023, prior to data extraction [<xref ref-type="bibr" rid="pone.0307120.ref018">18</xref>]. Due to the lack of data gathering or experimental work within our investigation, our ethical committee deemed to waive the requirement of ethical code for the project, and we suffice to rely on the ethical approval obtained for the included studies.</p>
+<sec id="sec007">
+<title>Criteria for considering studies for this review</title>
+<sec id="sec008">
+<title>Type of studies</title>
+<p>We included cohort studies reporting the incidence of HTN in different sleep durations among the normotensive population. Studies with a sample size of less than 30 people were excluded due to lack of statistical power. Randomized controlled trials (RCTs), case–control studies, cross-sectional studies, review articles, non-English articles, or those lacking substantial information concerning the relationship between sleep duration and HTN incidence were excluded.</p>
+</sec>
+<sec id="sec009">
+<title>Type of participants and interventions</title>
+<p>All individuals of both sexes aged 18 years and above, devoid of any prior history of HTN, administration of antihypertensive drugs, or diagnosis of HTN at baseline measurements were included.</p>
+</sec>
+</sec>
+<sec id="sec010">
+<title>Search methods for identification of studies</title>
+<p>A comprehensive search strategy was executed across 5 main databases, including PubMed, Embase, Scopus, Web of Science, and ProQuest, in order to identify pertinent literature from January 2000 to May 2023. Our searches were customized as needed for each database, incorporating relevant keywords and search terms (<xref ref-type="supplementary-material" rid="pone.0307120.s009">S2 Table</xref>).</p>
+</sec>
+<sec id="sec011">
+<title>Data collection and management</title>
+<p>The results of a systematic search were imported into Endnote software version 20.0 (Clarivate PLC, London, United Kingdom). Two authors (M.M and N.H) independently completed two rounds of screening. The initial screening was based on titles and abstracts, with subsequent full-text review during the second round. Any disparities were resolved through consultation with a third investigator (H.S).</p>
+</sec>
+<sec id="sec012">
+<title>Risk of bias assessment</title>
+<p>Two authors (Y.F and K.T) independently completed a risk of bias assessment for each study utilizing a modified version of the Newcastle-Ottawa Scale tool intended for observational studies [<xref ref-type="bibr" rid="pone.0307120.ref019">19</xref>]. Any discrepancies were checked by the third author (H.S). (<xref ref-type="supplementary-material" rid="pone.0307120.s001">S1 Fig</xref>).</p>
+</sec>
+<sec id="sec013">
+<title>Outcomes</title>
+<p>Three authors independently extracted data (M.M, N.H and Y.F) while the extracted data checked by a forth author (K.T). The following information was extracted from each eligible study: first author’s name, publication year, country of origin, duration of follow-up, demographics; including total sample size, mean age and sex distribution, different methods used to measure sleep duration, reference sleep duration, long and short sleep duration categories, and other covariates used to adjust the reported hazard ratios or risk ratios. Furthermore, hazard ratios (HR) or risk ratios (RR) were harvested to quantify the relationship between sleep duration and the risk of HTN incidence. For each study, we extracted maximally adjusted estimates compared to the referent sleep duration group to reflect the most comprehensive results. When the data of an article was not available, authors were contacted via email for obtaining full data.</p>
+</sec>
+<sec id="sec014">
+<title>Data analysis</title>
+<p>Pooled HRs, RRs, and 95% CI were estimated to quantify the relationship between short sleep duration, long sleep duration, and risk of HTN incidence using random-effect models. Based on the evidence from previous studies, the analyses were performed with sleep durations of 7–8 hours as the reference group [<xref ref-type="bibr" rid="pone.0307120.ref020">20</xref>, <xref ref-type="bibr" rid="pone.0307120.ref021">21</xref>]. We identified short and long sleep duration by sleeping for less than 7 hours and more than 8 hours, respectively. Heterogeneity was measured using I<sup>2</sup> statistics [<xref ref-type="bibr" rid="pone.0307120.ref022">22</xref>]. We conducted a sub-group analysis to evaluate the relationship between sleep duration and risk of HTN incidence after stratification according to the different definitions of short (&lt; 5 hours, 5 to 7 hours) [<xref ref-type="bibr" rid="pone.0307120.ref023">23</xref>–<xref ref-type="bibr" rid="pone.0307120.ref025">25</xref>] and long (8 to 9 hours, and &gt; 9 hours) [<xref ref-type="bibr" rid="pone.0307120.ref023">23</xref>, <xref ref-type="bibr" rid="pone.0307120.ref024">24</xref>, <xref ref-type="bibr" rid="pone.0307120.ref026">26</xref>] sleep durations and different durations of follow-up (&lt; 5 years and &gt;5 years), in instances where I<sup>2</sup> surpassed 50%. Potential publication bias was evaluated via funnel plot asymmetry, Egger’s regression, and the Begg tests [<xref ref-type="bibr" rid="pone.0307120.ref027">27</xref>]. Furthermore, we evaluated the effect of sleep duration and risk of HTN incidence across various age groups and sex categories. All statistical analyses were executed using R Programming language (R for Windows, version 4.1.3, Vienna, Austria) and R Studio version 1.1.463 (Posit PBC, Boston, MA, United States) utilizing the “tidyverse” and “meta” statistical packages.</p>
+</sec>
+</sec>
+<sec id="sec015" sec-type="results">
+<title>Results</title>
+<sec id="sec016">
+<title>Study characteristics</title>
+<p>The initial electronic search retrieved 12,537 articles, among which 4,941 were reviewed based on the title and abstract. A total of 133 full-text articles were retrieved, and 16 studies were included in the final analysis (<xref ref-type="fig" rid="pone.0307120.g001">Fig 1</xref>). Inter-readers’ agreement was high (Kappa coefficient 0.92). (<xref ref-type="supplementary-material" rid="pone.0307120.s010">S3 Table</xref>).</p>
+<fig id="pone.0307120.g001" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0307120.g001</object-id>
+<label>Fig 1</label>
+<caption>
+<title>Study flow chart.</title>
+</caption>
+<graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0307120.g001" xlink:type="simple"/>
+</fig>
+<p>The included publications evaluated the relationship between sleep duration and the incidence of HTN in 1,044,035 participants from 6 distinct countries (7 from China, 3 from the USA, 2 from the UK and South Korea, and 1 from Finland and Taiwan). The studies’ samples ranged from 1,009 to 261,279 people. The follow-up duration spanned from 2.4 to 18 years. The mean age of the individuals ranged from 35.4 to 60.9 years. All included studies assessed self-reported sleep duration through questionnaire. The most commonly adjusted confounders included age, smoking, alcohol consumption, sex, physical activity, education, diabetes, depression, marital status, ethnicity, and employment. Most of the studies were based on community-based cohorts; however, 4 studies focused on office employees [<xref ref-type="bibr" rid="pone.0307120.ref021">21</xref>, <xref ref-type="bibr" rid="pone.0307120.ref028">28</xref>–<xref ref-type="bibr" rid="pone.0307120.ref030">30</xref>], and 1 study centered on hospital nurses [<xref ref-type="bibr" rid="pone.0307120.ref031">31</xref>]. The characteristics of the included studies are detailed in <xref ref-type="table" rid="pone.0307120.t001">Table 1</xref>.</p>
+<table-wrap id="pone.0307120.t001" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0307120.t001</object-id>
+<label>Table 1</label> <caption><title>Description of the studies included in the meta-analysis.</title></caption>
+<alternatives>
+<graphic id="pone.0307120.t001g" mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0307120.t001" xlink:type="simple"/>
+<table>
+<colgroup>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+</colgroup>
+<thead>
+<tr>
+<th align="center" style="background-color:#E7E6E6">First author (publication year)</th>
+<th align="center" style="background-color:#E7E6E6">Country</th>
+<th align="center" style="background-color:#E7E6E6">Follow-up (years)</th>
+<th align="center" style="background-color:#E7E6E6">Total sample size</th>
+<th align="center" style="background-color:#E7E6E6">Mean age ±SD, range</th>
+<th align="center" style="background-color:#E7E6E6">Gender (Males %)</th>
+<th align="center" style="background-color:#E7E6E6">Referent sleep duration (hours)</th>
+<th align="center" style="background-color:#E7E6E6">Sleep category (hours)</th>
+<th align="center" style="background-color:#E7E6E6">Sleep duration assessment</th>
+<th align="center" style="background-color:#E7E6E6">Adjusted variables</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left" rowspan="3">Ganawisch (2006)</td>
+<td align="left" rowspan="3">USA</td>
+<td align="left" rowspan="3">10</td>
+<td align="left" rowspan="3">4,810</td>
+<td align="left" rowspan="3">32–86 years</td>
+<td align="left" rowspan="3">36.3</td>
+<td align="left" rowspan="3">7–8</td>
+<td align="left">≤5</td>
+<td align="left" rowspan="3">Questionnaire</td>
+<td align="left" rowspan="3">Age, sex, ethnicity, education, diabetes, smoking, overweight/obesity, alcohol consumption, physical activity, salt consumption, depression, daytime sleepiness, pulse rate</td>
+</tr>
+<tr>
+<td align="left">6</td>
+</tr>
+<tr>
+<td align="left">≥9</td>
+</tr>
+<tr>
+<td align="left" rowspan="2">Kim (2012)</td>
+<td align="left" rowspan="2">South Korea</td>
+<td align="left" rowspan="2">6</td>
+<td align="left" rowspan="2">4,965</td>
+<td align="left" rowspan="2">50.5±8.5</td>
+<td align="left" rowspan="2">46.9</td>
+<td align="left" rowspan="2">5–7</td>
+<td align="left">&lt;5</td>
+<td align="left" rowspan="2">Questionnaire</td>
+<td align="left" rowspan="2">Age, sex, body mass index, education, job, income, diabetes, smoking, alcohol consumption, physical activity, snoring, Epworth Sleepiness Scale</td>
+</tr>
+<tr>
+<td align="left">&gt;7</td>
+</tr>
+<tr>
+<td align="left" rowspan="4">Ganawisch (2013)</td>
+<td align="left" rowspan="4">USA</td>
+<td align="left" rowspan="4">6</td>
+<td align="left">60,009</td>
+<td align="left">30–55</td>
+<td align="left" rowspan="4">0</td>
+<td align="left" rowspan="4">7</td>
+<td align="left">≤5</td>
+<td align="left" rowspan="4">Questionnaire</td>
+<td align="left" rowspan="4">Age, ethnicity, body mass index, diabetes, hypercholesterolemia, smoking, alcohol consumption, caffeine consumption, diet, physical activity, menopause, family history of hypertension, use of aspirin, use of acetaminophen, use of non-aspirin Non-Steroidal Anti-Inflammatory Drugs, snoring, shift work</td>
+</tr>
+<tr>
+<td align="left">32,105</td>
+<td align="left">30–55</td>
+<td align="left">6</td>
+</tr>
+<tr>
+<td align="left" rowspan="2">68,784</td>
+<td align="left" rowspan="2">25–42</td>
+<td align="left">8</td>
+</tr>
+<tr>
+<td align="left">≥9</td>
+</tr>
+<tr>
+<td align="left" rowspan="4">Li (2015)</td>
+<td align="left" rowspan="4">China</td>
+<td align="left" rowspan="4">4.4</td>
+<td align="left" rowspan="4">4,774</td>
+<td align="left" rowspan="4">30–65</td>
+<td align="left" rowspan="4">52.3</td>
+<td align="left" rowspan="4">7-&lt;8</td>
+<td align="left">&lt;6</td>
+<td align="left" rowspan="4">Questionnaire</td>
+<td align="left" rowspan="4">Age, sex, waist circumference, education, systolic blood pressure, smoking, alcohol consumption, physical activity, stroke, cardiovascular disease, mental illness, insomnia, psychological pressure, bad mood, use of hypnotics, sleep quality, sleep in daytime, snoring, fasting blood glucose, triglycerides</td>
+</tr>
+<tr>
+<td align="left">6-&lt;7</td>
+</tr>
+<tr>
+<td align="left">8-&lt;9</td>
+</tr>
+<tr>
+<td align="left">≥9</td>
+</tr>
+<tr>
+<td align="left" rowspan="2">Lu (2015)</td>
+<td align="left" rowspan="2">China</td>
+<td align="left" rowspan="2">4.7</td>
+<td align="left" rowspan="2">1,009</td>
+<td align="left" rowspan="2">35.48±0.19</td>
+<td align="left" rowspan="2">60.7</td>
+<td align="left" rowspan="2">&lt;8</td>
+<td align="left">&lt;6</td>
+<td align="left" rowspan="2">Questionnaire</td>
+<td align="left" rowspan="2">Age, sex, education, marital status</td>
+</tr>
+<tr>
+<td align="left">6–8</td>
+</tr>
+<tr>
+<td align="left" rowspan="2">Clark (2016)</td>
+<td align="left" rowspan="2">Finland</td>
+<td align="left" rowspan="2">4.8</td>
+<td align="left" rowspan="2">70,049</td>
+<td align="left" rowspan="2">N/A</td>
+<td align="left" rowspan="2">17.27</td>
+<td align="left" rowspan="2">7–8</td>
+<td align="left">&lt;7</td>
+<td align="left" rowspan="2">Questionnaire</td>
+<td align="left" rowspan="2">Age, sex, body mass index, employment, smoking, alcohol consumption, physical activity, respiratory disorders (COPD and asthma), cancer, stress, depression, anxiety</td>
+</tr>
+<tr>
+<td align="left">≥9</td>
+</tr>
+<tr>
+<td align="left" rowspan="2">Deng (2017)</td>
+<td align="left" rowspan="2">Taiwan</td>
+<td align="left" rowspan="2">18</td>
+<td align="left" rowspan="2">162,121</td>
+<td align="left" rowspan="2">20–80</td>
+<td align="left" rowspan="2">47.4</td>
+<td align="left" rowspan="2">6–8</td>
+<td align="left">&lt;6</td>
+<td align="left" rowspan="2">Questionnaire</td>
+<td align="left" rowspan="2">Age, sex, body mass index, waist circumference, education, marital status, systolic blood pressure, smoking, alcohol consumption, physical activity, total cholesterol, triglycerides</td>
+</tr>
+<tr>
+<td align="left">&gt;8</td>
+</tr>
+<tr>
+<td align="left" rowspan="4">Song (2016)</td>
+<td align="left" rowspan="4">China</td>
+<td align="left" rowspan="4">3.98</td>
+<td align="left" rowspan="4">32,137</td>
+<td align="left" rowspan="4">46.32 ± 11.50</td>
+<td align="left" rowspan="4">73.4</td>
+<td align="left" rowspan="4">7</td>
+<td align="left">≤5</td>
+<td align="left" rowspan="4">Questionnaire</td>
+<td align="left" rowspan="4">Age, sex, body mass index, systolic blood pressure, diastolic blood pressure, smoking, alcohol consumption, salt consumption, diabetes, hyperlipidemia, physical activity family history of hypertension, resting heart rate</td>
+</tr>
+<tr>
+<td align="left">6</td>
+</tr>
+<tr>
+<td align="left">8</td>
+</tr>
+<tr>
+<td align="left">≥9</td>
+</tr>
+<tr>
+<td align="left" rowspan="4">Wang (2017)</td>
+<td align="left" rowspan="4">China</td>
+<td align="left" rowspan="4">5</td>
+<td align="left" rowspan="4">9,017</td>
+<td align="left" rowspan="4">60.9</td>
+<td align="left" rowspan="4">50.9</td>
+<td align="left" rowspan="4">7-&lt;8</td>
+<td align="left">&lt;7</td>
+<td align="left" rowspan="4">Questionnaire</td>
+<td align="left" rowspan="4">Age, sex, body mass index, education, marital status, shift work, smoking, alcohol consumption, physical activity, tea consumption, caffeine consumption, sleep quality, sleep apnea, use of hypnotics and cardiovascular disease (CVD) drugs, snoring, midday napping, family history of hypertension/chronic diseases, life stress</td>
+</tr>
+<tr>
+<td align="left">8-&lt;9</td>
+</tr>
+<tr>
+<td align="left">9-&lt;10</td>
+</tr>
+<tr>
+<td align="left">≥10</td>
+</tr>
+<tr>
+<td align="left" rowspan="2">Kim (2018)</td>
+<td align="left" rowspan="2">South Korea</td>
+<td align="left" rowspan="2">2.4</td>
+<td align="left" rowspan="2">106,385</td>
+<td align="left" rowspan="2">N/A</td>
+<td align="left" rowspan="2">59.1</td>
+<td align="left" rowspan="2">7</td>
+<td align="left">≤6</td>
+<td align="left" rowspan="2">Questionnaire</td>
+<td align="left" rowspan="2">Age, body mass index, education, marital status, employment, shiftwork, smoking, alcohol consumption, physical activity, diabetes, use of sleeping pills, use of antidepressants, depressive symptom scores, sleep apnea, frequency of snoring, frequency of difficult breathing, sleep quality, family history of hypertension, study center</td>
+</tr>
+<tr>
+<td align="left">≥8</td>
+</tr>
+<tr>
+<td align="left" rowspan="2">Huang (2021)</td>
+<td align="left" rowspan="2">China</td>
+<td align="left" rowspan="2">5</td>
+<td align="left" rowspan="2">3,178</td>
+<td align="left" rowspan="2">47.98±11.64</td>
+<td align="left" rowspan="2">43</td>
+<td align="left" rowspan="2">8–9</td>
+<td align="left">≤7</td>
+<td align="left" rowspan="2">Questionnaire</td>
+<td align="left" rowspan="2">Age, sex, body mass index, education, smoking, alcohol consumption, sedentary time per day, family income per capita</td>
+</tr>
+<tr>
+<td align="left">≥10</td>
+</tr>
+<tr>
+<td align="left" rowspan="2">Li (2021)</td>
+<td align="left" rowspan="2">UK</td>
+<td align="left" rowspan="2">9</td>
+<td align="left" rowspan="2">170,378</td>
+<td align="left" rowspan="2">53.6±8.0</td>
+<td align="left" rowspan="2">36.9</td>
+<td align="left" rowspan="2">7–9</td>
+<td align="left">&lt;7</td>
+<td align="left" rowspan="2">Questionnaire</td>
+<td align="left" rowspan="2">Age, sex, ethnicity, body mass index, education, physical activity, smoking, alcohol consumption, diabetes, depression, cancer, family history of hypertension</td>
+</tr>
+<tr>
+<td align="left">≥9</td>
+</tr>
+<tr>
+<td align="left" rowspan="3">Lunyera (2021)</td>
+<td align="left" rowspan="3">USA</td>
+<td align="left" rowspan="3">10.1</td>
+<td align="left" rowspan="3">33,497</td>
+<td align="left" rowspan="3">53.9±8.8</td>
+<td align="left" rowspan="3">0</td>
+<td align="left" rowspan="3">7-&lt;9</td>
+<td align="left">&lt;5</td>
+<td align="left" rowspan="3">Questionnaire</td>
+<td align="left" rowspan="3">Age, ethnicity, body mass index, education, marital status, employment, income level, smoking, alcohol consumption, physical activity, health eating index score, diabetes, use of antidepressants</td>
+</tr>
+<tr>
+<td align="left">&gt;5-&lt;7</td>
+</tr>
+<tr>
+<td align="left">&gt;9</td>
+</tr>
+<tr>
+<td align="left" rowspan="3">Yao (2021)</td>
+<td align="left" rowspan="3">China</td>
+<td align="left" rowspan="3">4</td>
+<td align="left" rowspan="3">10,176</td>
+<td align="left" rowspan="3">45 and above</td>
+<td align="left" rowspan="3">47.6</td>
+<td align="left" rowspan="3">7–9</td>
+<td align="left">≤5</td>
+<td align="left" rowspan="3">Questionnaire</td>
+<td align="left" rowspan="3">Age, sex, education, marital status, employment, smoking, alcohol consumption, physical activity, general obesity, abdominal obesity, diabetes, depression status, neighborhood registration, insurance, housing status and automobile possession, nocturnal sleep duration</td>
+</tr>
+<tr>
+<td align="left">5–7</td>
+</tr>
+<tr>
+<td align="left">&gt;9</td>
+</tr>
+<tr>
+<td align="left" rowspan="2">Yuan (2021)</td>
+<td align="left" rowspan="2">China</td>
+<td align="left" rowspan="2">3</td>
+<td align="left" rowspan="2">9,344</td>
+<td align="left" rowspan="2">36–51</td>
+<td align="left" rowspan="2">42.4</td>
+<td align="left" rowspan="2">≥7</td>
+<td align="left">&lt;5</td>
+<td align="left" rowspan="2">Questionnaire</td>
+<td align="left" rowspan="2">Age, sex, ethnicity, body mass index, education, marital status, employment, smoking, alcohol consumption, diabetes, dyslipidemia</td>
+</tr>
+<tr>
+<td align="left">5–6</td>
+</tr>
+<tr>
+<td align="left" rowspan="5">Cheng (2022)</td>
+<td align="left" rowspan="5">UK</td>
+<td align="left" rowspan="5">10.9</td>
+<td align="left" rowspan="5">261,297</td>
+<td align="left" rowspan="5">40–69</td>
+<td align="left" rowspan="5">43.4</td>
+<td align="left" rowspan="5">7</td>
+<td align="left">≤5</td>
+<td align="left" rowspan="5">Questionnaire</td>
+<td align="left" rowspan="5">Age, sex, ethnicity, body mass index, smoking, alcohol consumption, diet, physical activity, family history of cardiometabolic diseases, mental disorders, Townsend deprivation index</td>
+</tr>
+<tr>
+<td align="left">6</td>
+</tr>
+<tr>
+<td align="left">8</td>
+</tr>
+<tr>
+<td align="left">9</td>
+</tr>
+<tr>
+<td align="left">≥10</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+</table-wrap>
+</sec>
+<sec id="sec017">
+<title>Short sleep duration and hypertension incidence</title>
+<p>Fifteen studies evaluated the impact of short sleep duration (&lt; 7 hours) on the occurrence of HTN [<xref ref-type="bibr" rid="pone.0307120.ref021">21</xref>, <xref ref-type="bibr" rid="pone.0307120.ref023">23</xref>–<xref ref-type="bibr" rid="pone.0307120.ref026">26</xref>, <xref ref-type="bibr" rid="pone.0307120.ref029">29</xref>–<xref ref-type="bibr" rid="pone.0307120.ref038">38</xref>]. In the pooled analysis, we observed a statistically significant association between short sleep duration and risk of developing HTN (HR: 1.07, 95% CI: 1.06–1.09). It is important to note that high heterogeneity between studies was detected (I<sup>2</sup> = 67%, P &lt; 0.001) (<xref ref-type="fig" rid="pone.0307120.g002">Fig 2A</xref>). The preliminary inspection of the funnel plot, Egger’s regression, and the Begg tests showed no statistical evidence of publication bias (<xref ref-type="supplementary-material" rid="pone.0307120.s002">S2</xref> and <xref ref-type="supplementary-material" rid="pone.0307120.s003">S3</xref> Figs).</p>
+<fig id="pone.0307120.g002" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0307120.g002</object-id>
+<label>Fig 2</label>
+<caption>
+<title>Forest plots of the association between short and long sleep durations and risk of hypertension incidence.</title>
+<p>(A) Short duration of sleep (less than 7 hours) compared with the reference group and (B) Long duration of sleep (more than 8 hours) compared with the reference group. Results are expressed as Hazard ratio and 95% confidence intervals.</p>
+</caption>
+<graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0307120.g002" xlink:type="simple"/>
+</fig>
+<p>Upon further stratification of the data, we identified that the association between sleep duration and risk of HTN incidence was more pronounced in people with less than 5 hours of sleep (HR: 1.11, 95% CI: 1.08–1.14, N = 8) compared to people with 5–7 hours of sleep (HR: 1.05, 95% CI: 1–1.10, N = 8) (<xref ref-type="supplementary-material" rid="pone.0307120.s004">S4 Fig</xref>). Furthermore, the impact of short sleep duration on risk of HTN incidence was predominantly evident in studies with a follow-up duration exceeding 5 years (HR: 1.08, 95% CI: 1.05–1.11, N = 7), whereas no significant association was observed in studies with shorter follow-up durations (HR: 1.03, 95% CI: 0.97–1.10, N = 8) (<xref ref-type="supplementary-material" rid="pone.0307120.s005">S5 Fig</xref>). However, our analysis found a non-significant test of interaction between follow-up duration and risk of HTN incidence (P value = 0.19). In relation to different subgroups considered, the heterogeneity of effect was not due to the variations in sleep duration or follow-up periods across the included studies. Subgroup analyses of different sleep duration hours and follow-up periods are summarized in <xref ref-type="table" rid="pone.0307120.t002">Table 2</xref>.</p>
+<table-wrap id="pone.0307120.t002" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0307120.t002</object-id>
+<label>Table 2</label> <caption><title>Subgroup analyses to explore source of heterogeneity.</title></caption>
+<alternatives>
+<graphic id="pone.0307120.t002g" mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0307120.t002" xlink:type="simple"/>
+<table>
+<colgroup>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+</colgroup>
+<thead>
+<tr>
+<th align="left" style="background-color:#E7E6E6">Subgroups</th>
+<th align="left" style="background-color:#E7E6E6">Number of cohorts</th>
+<th align="left" style="background-color:#E7E6E6">HR (95% CI)</th>
+<th align="left" style="background-color:#E7E6E6">I<sup>2</sup> (%)</th>
+<th align="left" style="background-color:#E7E6E6">P value for heterogeneity</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left" colspan="5"><italic>Short sleep duration</italic></td>
+</tr>
+<tr>
+<td align="left">Sleep duration</td>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+</tr>
+<tr>
+<td align="left"> 5–7 hours</td>
+<td align="center">8</td>
+<td align="center">1.05(1–1.1)</td>
+<td align="center">80</td>
+<td align="char" char=".">&lt;0.01</td>
+</tr>
+<tr>
+<td align="left"> &lt;5 hours</td>
+<td align="center">8</td>
+<td align="center">1.11(1.08–1.14)</td>
+<td align="center">63</td>
+<td align="char" char=".">&lt;0.01</td>
+</tr>
+<tr>
+<td align="left">Duration of follow-up</td>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+</tr>
+<tr>
+<td align="left"> &lt;5 years</td>
+<td align="center">8</td>
+<td align="center">1.03(0.97–1.1)</td>
+<td align="center">72</td>
+<td align="char" char=".">&lt;0.01</td>
+</tr>
+<tr>
+<td align="left"> &gt;5 years</td>
+<td align="center">7</td>
+<td align="center">1.08(1.05–1.11)</td>
+<td align="center">62</td>
+<td align="char" char=".">&lt;0.01</td>
+</tr>
+<tr>
+<td align="left" colspan="5"><italic>Long sleep duration</italic></td>
+</tr>
+<tr>
+<td align="left">Sleep duration</td>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+</tr>
+<tr>
+<td align="left"> 8–9 hours</td>
+<td align="center">5</td>
+<td align="center">1.01(0.99–1.02)</td>
+<td align="center">26</td>
+<td align="char" char=".">0.23</td>
+</tr>
+<tr>
+<td align="left"> &gt;9 hours</td>
+<td align="center">11</td>
+<td align="center">1.06(0.99–1.12)</td>
+<td align="center">70</td>
+<td align="char" char=".">&lt;0.01</td>
+</tr>
+<tr>
+<td align="left">Duration of follow-up</td>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+</tr>
+<tr>
+<td align="left"> &lt;5 years</td>
+<td align="center">7</td>
+<td align="center">1.02(0.98–1.05)</td>
+<td align="center">61</td>
+<td align="char" char=".">&lt;0.01</td>
+</tr>
+<tr>
+<td align="left"> &gt;5 years</td>
+<td align="center">6</td>
+<td align="center">1.01(1–1.03)</td>
+<td align="center">46</td>
+<td align="char" char=".">0.05</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+</table-wrap>
+<p>The sex-stratified analysis indicated that short sleep duration was associated with higher risk of HTN incidence in females (HR: 1.07, 95% CI: 1.04–1.09, N = 6), whereas this effect was not observed in males (HR: 1.00, 95% CI: 0.96–1.03, N = 4) (P value&lt; 0.01) (<xref ref-type="fig" rid="pone.0307120.g003">Fig 3A</xref>). Additionally, our analysis revealed that in contrast to individuals aged 60 and above, short sleep duration might be a risk factor for HTN incidence among individuals under the age of 60 (HR: 1.04, 95% CI: 0.98–1.09, N = 4; HR: 1.07, 95% CI: 1.03–1.11, N = 4; respectively). However, our analysis revealed a non-significant test of interaction between subgroups (P value = 0.4) (<xref ref-type="fig" rid="pone.0307120.g004">Fig 4A</xref>).</p>
+<fig id="pone.0307120.g003" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0307120.g003</object-id>
+<label>Fig 3</label>
+<caption>
+<title>Forest plots of the association between short and long sleep durations and risk of hypertension incidence in different gender subgroups.</title>
+<p>(A) short duration of sleep (less than 7 hours) compared with the reference group and (B) long duration of sleep (more than 8 hours) compared with the reference group Results are expressed as Hazard ratio and 95% confidence intervals.</p>
+</caption>
+<graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0307120.g003" xlink:type="simple"/>
+</fig>
+<fig id="pone.0307120.g004" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0307120.g004</object-id>
+<label>Fig 4</label>
+<caption>
+<title>Forest plots of the association between short and long sleep durations and risk of hypertension incidence in different age subgroups.</title>
+<p>(A) short duration of sleep (less than 7 hours) compared with the reference group and (B) long duration of sleep (more than 8 hours) compared with the reference group Results are expressed as Hazard ratio and 95% confidence intervals.</p>
+</caption>
+<graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0307120.g004" xlink:type="simple"/>
+</fig>
+</sec>
+<sec id="sec018">
+<title>Long sleep duration and hypertension incidence</title>
+<p>Fourteen studies evaluated the effect of long sleep duration (&gt; 8 hours) on the risk of HTN incidence [<xref ref-type="bibr" rid="pone.0307120.ref021">21</xref>, <xref ref-type="bibr" rid="pone.0307120.ref023">23</xref>–<xref ref-type="bibr" rid="pone.0307120.ref026">26</xref>, <xref ref-type="bibr" rid="pone.0307120.ref029">29</xref>–<xref ref-type="bibr" rid="pone.0307120.ref032">32</xref>, <xref ref-type="bibr" rid="pone.0307120.ref034">34</xref>, <xref ref-type="bibr" rid="pone.0307120.ref035">35</xref>, <xref ref-type="bibr" rid="pone.0307120.ref037">37</xref>–<xref ref-type="bibr" rid="pone.0307120.ref039">39</xref>]. In the pooled analysis, we did not discern any significant correlation between long sleep duration and risk of developing HTN (HR: 1.01, 95% CI: 1–1.03). It is noteworthy that our analysis revealed a high degree of heterogeneity among the studies (I<sup>2</sup> = 58%, P &lt; 0.001) (<xref ref-type="fig" rid="pone.0307120.g002">Fig 2B</xref>). The preliminary inspection of the funnel plot, Egger’s regression, and the Begg tests showed no statistical evidence of publication bias (<xref ref-type="supplementary-material" rid="pone.0307120.s002">S2</xref> and <xref ref-type="supplementary-material" rid="pone.0307120.s003">S3</xref> Figs).</p>
+<p>Further stratification of the data unveiled no significant association between HTN incidence and both 8–9 hours of sleep (HR: 1.01, 95% CI: 0.99–1.02, N = 5) and more than 9 hours of sleep (HR: 1.06, 95% CI: 0.99–1.12, N = 11) (<xref ref-type="supplementary-material" rid="pone.0307120.s006">S6 Fig</xref>). Furthermore, long sleep duration was not associated with HTN incidence in studies with a follow-up duration exceeding 5 years (HR: 1.01, 95% CI: 1–1.03, N = 7) or in studies with shorter follow-up durations (HR: 1.02, 95% CI: 0.98–1.05, N = 6) (P value = 0.8) (<xref ref-type="supplementary-material" rid="pone.0307120.s007">S7 Fig</xref>). In relation to different subgroups considered, the heterogeneity of effect was not due to the variations in sleep duration or follow-up periods across the included studies. Subgroup analyses of different sleep duration hours and follow-up periods are presented in <xref ref-type="table" rid="pone.0307120.t002">Table 2</xref>.</p>
+<p>Our analysis revealed that compared to individuals under the age of 60, long sleep duration is correlated with higher risk of HTN incidence in individuals aged 60 and above (HR: 1.04, 95% CI: 0.99–1.09, N = 3; HR: 1.14, 95% CI: 1.03–1.24, N = 3; respectively). However, the test of interaction between the two groups was not significant (P value = 0.13) (<xref ref-type="fig" rid="pone.0307120.g004">Fig 4B</xref>). Long sleep duration was not associated with higher risk of HTN incidence in either male (HR: 1.02, 95% CI: 0.97–1.06, N = 4) or female (HR: 0.97, 95% CI: 0.99–1.02, N = 6) (P value = 0.36) (<xref ref-type="fig" rid="pone.0307120.g003">Fig 3B</xref>).</p>
+</sec>
+</sec>
+<sec id="sec019" sec-type="conclusions">
+<title>Discussion</title>
+<p>Based on the results of the present study, short sleep duration, specifically less than 5 hours, is significantly related to increased incidence of HTN. Moreover, females were more susceptible to this effect. Regarding long sleep duration, no discernible association with HTN incidence was found (Graphical Abstract). This meta-analysis represents a comprehensive investigation into the relationship between sleep duration and risk of HTN incidence, encompassing various definitions of short and long sleep durations, as well as follow-up durations.</p>
+<sec id="sec020">
+<title>Short sleep duration and hypertension incidence</title>
+<p>Short sleep duration was associated with higher burden of HTN incidence. The findings were in line with the results of previous meta-analyses [<xref ref-type="bibr" rid="pone.0307120.ref013">13</xref>, <xref ref-type="bibr" rid="pone.0307120.ref014">14</xref>, <xref ref-type="bibr" rid="pone.0307120.ref040">40</xref>], but, it’s worth noting that their results were based on a pooled ORs and HRs derived from both cross-sectional and cohort. The OR provides a single snapshot of the association at a certain time point, whereas HR consider both the incidence and the timing and cannot be used interchangeably. Additionally, cohort studies exhibit fewer bias and offer more robust support for causal relationship between different sleep durations and HTN incidence [<xref ref-type="bibr" rid="pone.0307120.ref041">41</xref>–<xref ref-type="bibr" rid="pone.0307120.ref043">43</xref>].</p>
+<p>In recent years, three other systematic reviews evaluated the effect of short sleep duration on HTN incidence using cohort studies. Meng et al. [<xref ref-type="bibr" rid="pone.0307120.ref015">15</xref>] and Li et al. [<xref ref-type="bibr" rid="pone.0307120.ref016">16</xref>] conducted meta-analyses covering cohort studies up to 2012 and 2017, respectively. Both studies observed a similar relationship between short sleep duration and risk of HTN incidence, however, they only included 11 and 9 studies and missed some important articles. Che et al. [<xref ref-type="bibr" rid="pone.0307120.ref012">12</xref>] reviewed cohort studies until October 2021 and evaluated the association between sleep duration and the incidence of metabolic syndrome and HTN. Their findings are consistent with the current results but only included 7 cohort studies, featured older data, and omitted many recent studies. Notably, none of these aforementioned reviews evaluated how short sleep duration effects the risk of HTN incidence across various age and sex groups or in different follow-up durations.</p>
+<p>Sleep restriction can increase heart rate and blood pressure through various mechanisms including activation of the sympathetic nervous system, or disturbances within the hypothalamic-pituitary-adrenal axis [<xref ref-type="bibr" rid="pone.0307120.ref013">13</xref>, <xref ref-type="bibr" rid="pone.0307120.ref038">38</xref>]. Of note, our results showed that more follow-up duration might strengthen the effect. This implies that the detrimental effects of inadequate sleep may accumulate over time, leading to a higher risk of HTN.</p>
+<p>Based on our findings, it was observed that the female population were more susceptible to HTN incidents when experiencing sleep restriction. These observations align with prior studies in the field [<xref ref-type="bibr" rid="pone.0307120.ref040">40</xref>, <xref ref-type="bibr" rid="pone.0307120.ref044">44</xref>]. The pathophysiology behind the effect of sex on the association between sleep duration and HTN incident is still unclear. Sex differences contribute to variability in the body composition and hormonal profile, influencing the neurohormonal response to sleep patterns [<xref ref-type="bibr" rid="pone.0307120.ref045">45</xref>]. In an experimental study, males showed a more pronounced baroreflex response besides reductions in testosterone levels to diminish the effect of sleep deprivation on HTN, however, females demonstrated a comparatively weaker response in this context [<xref ref-type="bibr" rid="pone.0307120.ref046">46</xref>].</p>
+<p>Furthermore, our research suggests that individuals below the age of 60 might be more likely to experience the impact of short sleep duration on the HTN incidence. Elderly individuals, often retired, have more opportunities for daytime napping. These afternoon naps can reverse physiological changes induced by sleep restriction, potentially mitigating HTN risk [<xref ref-type="bibr" rid="pone.0307120.ref024">24</xref>].</p>
+</sec>
+<sec id="sec021">
+<title>Long sleep duration and hypertension incidence</title>
+<p>In contrast to the robust associations between short sleep duration and HTN, our comprehensive analyses revealed a lack of a statistically significant correlation between extended sleep periods and HTN incidence. The lack of a straightforward association between longer sleep duration and HTN aligns with findings in some previous studies [<xref ref-type="bibr" rid="pone.0307120.ref016">16</xref>, <xref ref-type="bibr" rid="pone.0307120.ref044">44</xref>]. In contrast, it’s worth noting that other studies have shown a significant association between long sleep duration and the incidence of HTN [<xref ref-type="bibr" rid="pone.0307120.ref012">12</xref>, <xref ref-type="bibr" rid="pone.0307120.ref013">13</xref>]. The relationship between longer sleep duration and HTN incidence in these studies can be attributed to several factors. One plausible explanation is that individuals with sleep disturbances, such as sleep apnea, might unintentionally have longer sleep durations due to their extended sleep periods to compensate for their disrupted sleep patterns, even if their actual sleep duration is short [<xref ref-type="bibr" rid="pone.0307120.ref032">32</xref>]. Moreover, recognized HTN risk factors like depression, and socioeconomic disparities may cause longer sleep durations, which are often overlooked in studies [<xref ref-type="bibr" rid="pone.0307120.ref039">39</xref>]. Nonetheless, the complex association between prolonged sleep and HTN beckons further investigation.</p>
+<p>It’s worth to note that, our study demonstrated that the incidence of HTN might be more pronounced in individuals older than 60. Age-related changes in vascular structure and function or autonomic dysregulation may contribute to increased blood pressure [<xref ref-type="bibr" rid="pone.0307120.ref047">47</xref>]. Further studies are required to better understand the mechanisms.</p>
+<p>As the primary preventable risk factor for cardiovascular diseases, HTN is projected to afflict one third of world population by 2025 [<xref ref-type="bibr" rid="pone.0307120.ref047">47</xref>]. Our study unveiled that less than 7 hours of sleep was associated with a 7% increased risk of developing HTN which escalated to 11% when the sleep duration was less than 5 hours. Therefore, early detection and intervention for individuals with short sleep hold considerable potential for reducing the forthcoming burden of HTN. It would be nice if these findings were supported in large-scale RCTs featuring substantial follow-up duration and more advanced techniques like polysomnography. However, the majority of published RCTs could not add valuable information due to their small sample size and short follow-up durations [<xref ref-type="bibr" rid="pone.0307120.ref016">16</xref>]. An RCT study capable of overcoming these challenges would provide valuable information regarding the relation between sleep duration and HTN incidence. Additionally, there are discrepancies regarding different definitions of short and long sleep duration in published studies. These variations emphasize the need for standardized methodologies in sleep research to enhance the comparability and generalizability of findings across diverse studies.</p>
+</sec>
+</sec>
+<sec id="sec022">
+<title>Limitations</title>
+<p>It is imperative to acknowledge several limitations of our study. First, all data regarding the effect of sleep duration on HTN incidence that are discussed here stem from nonrandomized studies, albeit many of them are prospective in design. Second, the included cohort studies exhibited variability in methodologies, populations, categorization of sleep duration, and adjusted variables which potentially introduce heterogeneity and influence the observed associations. Third, the possibility of publication bias and variations in study quality cannot be entirely ruled out, which may have impacted the overall findings. Fourth, although we employed the results from the most adjusted model in each study, we must acknowledge the potential impact of unmeasured confounding variables on the observed relationships. Finally, the sleep duration in all included studies were assessed by questionnaire, which usually lacks precision to differentiate between time spent asleep from time in bed. Therefore, using other assessment modalities like sleep diaries, actigraphy, and polysomnography can be more useful in evaluating the relationship between sleep duration and risk of HTN incidence. It would be nice if the findings were supported by large-scale randomized trials with more accurate methods in future.</p>
+</sec>
+<sec id="sec023" sec-type="conclusions">
+<title>Conclusion</title>
+<p>In conclusion, a significant association between short sleep duration, particularly less than 5 hours, and an elevated risk of HTN was detected. Moreover, females were more vulnerable to this effect. Conversely, long sleep duration showed no significant correlation. These findings underscore the importance of implementing strategies targeting short sleep durations, especially in at-risk populations beside the formulation of additional intervention plans. Further research is warranted to elucidate the underlying mechanisms of the effect of long sleep on HTN and explore potential interventions to mitigate the impact of inadequate sleep on HTN risk.</p>
+</sec>
+<sec id="sec024" sec-type="supplementary-material">
+<title>Supporting information</title>
+<supplementary-material id="pone.0307120.s001" mimetype="image/tiff" position="float" xlink:href="info:doi/10.1371/journal.pone.0307120.s001" xlink:type="simple">
+<label>S1 Fig</label>
+<caption>
+<title>Risk of bias assessment of the included studies by the Newcastle- Ottawa scale.</title>
+<p>(TIF)</p>
+</caption>
+</supplementary-material>
+<supplementary-material id="pone.0307120.s002" mimetype="image/tiff" position="float" xlink:href="info:doi/10.1371/journal.pone.0307120.s002" xlink:type="simple">
+<label>S2 Fig</label>
+<caption>
+<title>Funnel plot for publication bias assessment of studies evaluating hypertension incidence.</title>
+<p>(A) short duration of sleep compared with the reference group and (B) long duration of sleep compared with the reference group.</p>
+<p>(TIF)</p>
+</caption>
+</supplementary-material>
+<supplementary-material id="pone.0307120.s003" mimetype="image/tiff" position="float" xlink:href="info:doi/10.1371/journal.pone.0307120.s003" xlink:type="simple">
+<label>S3 Fig</label>
+<caption>
+<title>Egger and Begg plots for publication bias assessment of studies evaluating hypertension incidence.</title>
+<p>(A) short duration of sleep compared with the reference group and (B) long duration of sleep compared with the reference group. (C) short duration of sleep compared with the reference group and (D) long duration of sleep compared with the reference group.</p>
+<p>(TIF)</p>
+</caption>
+</supplementary-material>
+<supplementary-material id="pone.0307120.s004" mimetype="image/tiff" position="float" xlink:href="info:doi/10.1371/journal.pone.0307120.s004" xlink:type="simple">
+<label>S4 Fig</label>
+<caption>
+<title>Forest plots of the association between hypertension incidence in different definitions of short sleep duration.</title>
+<p>(A) 5–7 hours of sleep duration compared with the reference group and (B) less than 5 hours of sleep duration compared with the reference group. Results are expressed as Hazard ratio and 95% confidence intervals.</p>
+<p>(TIF)</p>
+</caption>
+</supplementary-material>
+<supplementary-material id="pone.0307120.s005" mimetype="image/tiff" position="float" xlink:href="info:doi/10.1371/journal.pone.0307120.s005" xlink:type="simple">
+<label>S5 Fig</label>
+<caption>
+<title>Forest plots of the association between hypertension incidence in different follow-up durations of short sleep.</title>
+<p>Results are expressed as Hazard ratio and 95% confidence intervals.</p>
+<p>(TIF)</p>
+</caption>
+</supplementary-material>
+<supplementary-material id="pone.0307120.s006" mimetype="image/tiff" position="float" xlink:href="info:doi/10.1371/journal.pone.0307120.s006" xlink:type="simple">
+<label>S6 Fig</label>
+<caption>
+<title>Forest plots of the association between hypertension incidence in different definitions of long sleep duration.</title>
+<p>(A) 8–9 hours of sleep duration compared with the reference group and (B) more than 9 hours of sleep duration compared with the reference group. Results are expressed as Hazard ratio and 95% confidence intervals.</p>
+<p>(TIF)</p>
+</caption>
+</supplementary-material>
+<supplementary-material id="pone.0307120.s007" mimetype="image/tiff" position="float" xlink:href="info:doi/10.1371/journal.pone.0307120.s007" xlink:type="simple">
+<label>S7 Fig</label>
+<caption>
+<title>Forest plots of the association between Hypertension incidence in different follow-up durations.</title>
+<p>Results are expressed as Hazard ratio and 95% confidence intervals.</p>
+<p>(TIF)</p>
+</caption>
+</supplementary-material>
+<supplementary-material id="pone.0307120.s008" mimetype="application/vnd.openxmlformats-officedocument.wordprocessingml.document" position="float" xlink:href="info:doi/10.1371/journal.pone.0307120.s008" xlink:type="simple">
+<label>S1 Table</label>
+<caption>
+<title>Checklist of compliance with PRISMA guidelines.</title>
+<p>(DOCX)</p>
+</caption>
+</supplementary-material>
+<supplementary-material id="pone.0307120.s009" mimetype="application/vnd.openxmlformats-officedocument.wordprocessingml.document" position="float" xlink:href="info:doi/10.1371/journal.pone.0307120.s009" xlink:type="simple">
+<label>S2 Table</label>
+<caption>
+<title>Relevant keywords and search terms for searching databases.</title>
+<p>(DOCX)</p>
+</caption>
+</supplementary-material>
+<supplementary-material id="pone.0307120.s010" mimetype="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" position="float" xlink:href="info:doi/10.1371/journal.pone.0307120.s010" xlink:type="simple">
+<label>S3 Table</label>
+<caption>
+<title>Data of the included studies.</title>
+<p>(XLSX)</p>
+</caption>
+</supplementary-material>
+<supplementary-material id="pone.0307120.s011" mimetype="image/tiff" position="float" xlink:href="info:doi/10.1371/journal.pone.0307120.s011" xlink:type="simple">
+<label>S1 Graphical abstract</label>
+<caption>
+<title/>
+<p>(TIF)</p>
+</caption>
+</supplementary-material>
+</sec>
+</body>
+<back>
+<ack>
+<p>This article does not contain any acknowledgments.</p>
+</ack>
+<ref-list>
+<title>References</title>
+<ref id="pone.0307120.ref001"><label>1</label><mixed-citation publication-type="journal" xlink:type="simple"><article-title>Worldwide trends in hypertension prevalence and progress in treatment and control from 1990 to 2019: a pooled analysis of 1201 population-representative studies with 104 million participants</article-title>. <source>Lancet</source>, <year>2021</year>. <volume>398</volume>(<issue>10304</issue>): p. <fpage>957</fpage>–<lpage>980</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/S0140-6736%2821%2901330-1" xlink:type="simple">10.1016/S0140-6736(21)01330-1</ext-link></comment> <object-id pub-id-type="pmid">34450083</object-id></mixed-citation></ref>
+<ref id="pone.0307120.ref002"><label>2</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Buzaalirwa</surname> <given-names>L.</given-names></name>, <etal>et al</etal>., <article-title>Implementing screening for hypertension in archetypal HIV primary care: a mixed-methods assessment</article-title>. <source>BMC Health Serv Res</source>, <year>2022</year>. <volume>22</volume>(<issue>1</issue>): p. <fpage>1041</fpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/s12913-022-08362-y" xlink:type="simple">10.1186/s12913-022-08362-y</ext-link></comment> <object-id pub-id-type="pmid">35971141</object-id></mixed-citation></ref>
+<ref id="pone.0307120.ref003"><label>3</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Ozemek</surname> <given-names>C.</given-names></name>, <etal>et al</etal>., <article-title>The role of diet for prevention and management of hypertension</article-title>. <source>Curr Opin Cardiol</source>, <year>2018</year>. <volume>33</volume>(<issue>4</issue>): p. <fpage>388</fpage>–<lpage>393</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1097/HCO.0000000000000532" xlink:type="simple">10.1097/HCO.0000000000000532</ext-link></comment> <object-id pub-id-type="pmid">29771736</object-id></mixed-citation></ref>
+<ref id="pone.0307120.ref004"><label>4</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Diaz</surname> <given-names>K.M.</given-names></name> and <name name-style="western"><surname>Shimbo</surname> <given-names>D.</given-names></name>, <article-title>Physical activity and the prevention of hypertension</article-title>. <source>Curr Hypertens Rep</source>, <year>2013</year>. <volume>15</volume>(<issue>6</issue>): p. <fpage>659</fpage>–<lpage>68</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1007/s11906-013-0386-8" xlink:type="simple">10.1007/s11906-013-0386-8</ext-link></comment> <object-id pub-id-type="pmid">24052212</object-id></mixed-citation></ref>
+<ref id="pone.0307120.ref005"><label>5</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Lee</surname> <given-names>W.</given-names></name>, <etal>et al</etal>., <article-title>The association between smoking or passive smoking and cardiovascular diseases using a Bayesian hierarchical model: based on the 2008–2013 Korea Community Health Survey</article-title>. <source>Epidemiol Health</source>, <year>2017</year>. <volume>39</volume>: p. <fpage>e2017026</fpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.4178/epih.e2017026" xlink:type="simple">10.4178/epih.e2017026</ext-link></comment> <object-id pub-id-type="pmid">28728350</object-id></mixed-citation></ref>
+<ref id="pone.0307120.ref006"><label>6</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Fuchs</surname> <given-names>F.D.</given-names></name> and <name name-style="western"><surname>Fuchs</surname> <given-names>S.C.</given-names></name>, <article-title>The Effect of Alcohol on Blood Pressure and Hypertension</article-title>. <source>Curr Hypertens Rep</source>, <year>2021</year>. <volume>23</volume>(<issue>10</issue>): p. <fpage>42</fpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1007/s11906-021-01160-7" xlink:type="simple">10.1007/s11906-021-01160-7</ext-link></comment> <object-id pub-id-type="pmid">34762198</object-id></mixed-citation></ref>
+<ref id="pone.0307120.ref007"><label>7</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Abukanna</surname> <given-names>A.M.A.</given-names></name>, <etal>et al</etal>., <article-title>Sleep Deficiency as a Risk Factor for Hypertension: A Systematic Review</article-title>. <source>Pharmacophore</source>, <year>2022</year>. <volume>13</volume>(<issue>6</issue>).</mixed-citation></ref>
+<ref id="pone.0307120.ref008"><label>8</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Akerstedt</surname> <given-names>T.</given-names></name> and <name name-style="western"><surname>Nilsson</surname> <given-names>P.M.</given-names></name>, <article-title>Sleep as restitution: an introduction</article-title>. <source>J Intern Med</source>, <year>2003</year>. <volume>254</volume>(<issue>1</issue>): p. <fpage>6</fpage>–<lpage>12</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1046/j.1365-2796.2003.01195.x" xlink:type="simple">10.1046/j.1365-2796.2003.01195.x</ext-link></comment> <object-id pub-id-type="pmid">12823638</object-id></mixed-citation></ref>
+<ref id="pone.0307120.ref009"><label>9</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Saleh</surname> <given-names>D.</given-names></name> and <name name-style="western"><surname>Janssen</surname> <given-names>I.</given-names></name>, <article-title>Interrelationships among sedentary time, sleep duration, and the metabolic syndrome in adults</article-title>. <source>BMC Public Health</source>, <year>2014</year>. <volume>14</volume>: p. <fpage>666</fpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/1471-2458-14-666" xlink:type="simple">10.1186/1471-2458-14-666</ext-link></comment> <object-id pub-id-type="pmid">24975509</object-id></mixed-citation></ref>
+<ref id="pone.0307120.ref010"><label>10</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Krittanawong</surname> <given-names>C.</given-names></name>, <etal>et al</etal>., <article-title>Association between short and long sleep durations and cardiovascular outcomes: a systematic review and meta-analysis</article-title>. <source>Eur Heart J Acute Cardiovasc Care</source>, <year>2019</year>. <volume>8</volume>(<issue>8</issue>): p. <fpage>762</fpage>–<lpage>770</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1177/2048872617741733" xlink:type="simple">10.1177/2048872617741733</ext-link></comment> <object-id pub-id-type="pmid">29206050</object-id></mixed-citation></ref>
+<ref id="pone.0307120.ref011"><label>11</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Jike</surname> <given-names>M.</given-names></name>, <etal>et al</etal>., <article-title>Long sleep duration and health outcomes: A systematic review, meta-analysis and meta-regression</article-title>. <source>Sleep Med Rev</source>, <year>2018</year>. <volume>39</volume>: p. <fpage>25</fpage>–<lpage>36</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.smrv.2017.06.011" xlink:type="simple">10.1016/j.smrv.2017.06.011</ext-link></comment> <object-id pub-id-type="pmid">28890167</object-id></mixed-citation></ref>
+<ref id="pone.0307120.ref012"><label>12</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Che</surname> <given-names>T.</given-names></name>, <etal>et al</etal>., <article-title>The Association Between Sleep and Metabolic Syndrome: A Systematic Review and Meta-Analysis</article-title>. <source>Front Endocrinol (Lausanne)</source>, <year>2021</year>. <volume>12</volume>: p. <fpage>773646</fpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.3389/fendo.2021.773646" xlink:type="simple">10.3389/fendo.2021.773646</ext-link></comment> <object-id pub-id-type="pmid">34867820</object-id></mixed-citation></ref>
+<ref id="pone.0307120.ref013"><label>13</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Wang</surname> <given-names>Y.</given-names></name>, <etal>et al</etal>., <article-title>Relationship between Duration of Sleep and Hypertension in Adults: A Meta-Analysis</article-title>. <source>J Clin Sleep Med</source>, <year>2015</year>. <volume>11</volume>(<issue>9</issue>): p. <fpage>1047</fpage>–<lpage>56</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.5664/jcsm.5024" xlink:type="simple">10.5664/jcsm.5024</ext-link></comment> <object-id pub-id-type="pmid">25902823</object-id></mixed-citation></ref>
+<ref id="pone.0307120.ref014"><label>14</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Guo</surname> <given-names>X.</given-names></name>, <etal>et al</etal>., <article-title>Epidemiological evidence for the link between sleep duration and high blood pressure: a systematic review and meta-analysis</article-title>. <source>Sleep Med</source>, <year>2013</year>. <volume>14</volume>(<issue>4</issue>): p. <fpage>324</fpage>–<lpage>32</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.sleep.2012.12.001" xlink:type="simple">10.1016/j.sleep.2012.12.001</ext-link></comment> <object-id pub-id-type="pmid">23394772</object-id></mixed-citation></ref>
+<ref id="pone.0307120.ref015"><label>15</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Meng</surname> <given-names>L.</given-names></name>, <name name-style="western"><surname>Zheng</surname> <given-names>Y.</given-names></name>, and <name name-style="western"><surname>Hui</surname> <given-names>R.</given-names></name>, <article-title>The relationship of sleep duration and insomnia to risk of hypertension incidence: a meta-analysis of prospective cohort studies</article-title>. <source>Hypertens Res</source>, <year>2013</year>. <volume>36</volume>(<issue>11</issue>): p. <fpage>985</fpage>–<lpage>95</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1038/hr.2013.70" xlink:type="simple">10.1038/hr.2013.70</ext-link></comment> <object-id pub-id-type="pmid">24005775</object-id></mixed-citation></ref>
+<ref id="pone.0307120.ref016"><label>16</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Li</surname> <given-names>H.</given-names></name>, <etal>et al</etal>., <article-title>Correlation between sleep duration and hypertension: a dose-response meta-analysis</article-title>. <source>J Hum Hypertens</source>, <year>2019</year>. <volume>33</volume>(<issue>3</issue>): p. <fpage>218</fpage>–<lpage>228</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1038/s41371-018-0135-1" xlink:type="simple">10.1038/s41371-018-0135-1</ext-link></comment> <object-id pub-id-type="pmid">30451942</object-id></mixed-citation></ref>
+<ref id="pone.0307120.ref017"><label>17</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Page</surname> <given-names>M. J.</given-names></name> <etal>et al</etal>. <article-title>The PRISMA 2020 statement: an updated guideline for reporting systematic reviews</article-title>. <source>Syst. Rev</source>. <volume>10</volume>, <fpage>89</fpage> (<year>2021</year>). <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/s13643-021-01626-4" xlink:type="simple">10.1186/s13643-021-01626-4</ext-link></comment> <object-id pub-id-type="pmid">33781348</object-id></mixed-citation></ref>
+<ref id="pone.0307120.ref018"><label>18</label><mixed-citation publication-type="other" xlink:type="simple">PROSPERO. <ext-link ext-link-type="uri" xlink:href="https://www.crd.york.ac.uk/prospero/display_record.php?ID=CRD42023424911" xlink:type="simple">https://www.crd.york.ac.uk/prospero/display_record.php?ID=CRD42023424911</ext-link>. Accessed on June 20th, 2023.</mixed-citation></ref>
+<ref id="pone.0307120.ref019"><label>19</label><mixed-citation publication-type="other" xlink:type="simple">NOS. [(accessed on 17 March 2023)]. <ext-link ext-link-type="uri" xlink:href="https://www.ohri.ca/programs/clinical_epidemiology/oxford.asp" xlink:type="simple">https://www.ohri.ca/programs/clinical_epidemiology/oxford.asp</ext-link>.</mixed-citation></ref>
+<ref id="pone.0307120.ref020"><label>20</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Cappuccio</surname> <given-names>F.P.</given-names></name>, <etal>et al</etal>., <article-title>Sleep duration predicts cardiovascular outcomes: a systematic review and meta-analysis of prospective studies</article-title>. <source>Eur Heart J</source>, <year>2011</year>. <volume>32</volume>(<issue>12</issue>): p. <fpage>1484</fpage>–<lpage>92</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1093/eurheartj/ehr007" xlink:type="simple">10.1093/eurheartj/ehr007</ext-link></comment> <object-id pub-id-type="pmid">21300732</object-id></mixed-citation></ref>
+<ref id="pone.0307120.ref021"><label>21</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Wang</surname> <given-names>D.</given-names></name>, <etal>et al</etal>., <article-title>The effect of sleep duration and sleep quality on hypertension in middle-aged and older Chinese: the Dongfeng-Tongji Cohort Study</article-title>. <source>Sleep Med</source>, <year>2017</year>. <volume>40</volume>: p. <fpage>78</fpage>–<lpage>83</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.sleep.2017.09.024" xlink:type="simple">10.1016/j.sleep.2017.09.024</ext-link></comment> <object-id pub-id-type="pmid">29221783</object-id></mixed-citation></ref>
+<ref id="pone.0307120.ref022"><label>22</label><mixed-citation publication-type="book" xlink:type="simple"><name name-style="western"><surname>Deeks</surname> <given-names>J.J.</given-names></name>, <etal>et al</etal>., <chapter-title>Analysing data and undertaking meta-analyses</chapter-title>. <source>Cochrane handbook for systematic reviews of interventions</source>, <year>2019</year>: p. <fpage>241</fpage>–<lpage>284</lpage>.</mixed-citation></ref>
+<ref id="pone.0307120.ref023"><label>23</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Cheng</surname> <given-names>X.</given-names></name>, <etal>et al</etal>., <article-title>The individual and joint associations of depression and sleep duration with cardiometabolic diseases and mortality: A prospective cohort study</article-title>. <source>Atherosclerosis</source>, <year>2022</year>. <volume>361</volume>: p. <fpage>10</fpage>–<lpage>17</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.atherosclerosis.2022.09.016" xlink:type="simple">10.1016/j.atherosclerosis.2022.09.016</ext-link></comment> <object-id pub-id-type="pmid">36252458</object-id></mixed-citation></ref>
+<ref id="pone.0307120.ref024"><label>24</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Yao</surname> <given-names>F.</given-names></name>, <etal>et al</etal>., <article-title>Daytime Sleep as Compensation for the Effects of Reduced Nocturnal Sleep on the Incidence of Hypertension: A Cohort Study</article-title>. <source>Nat Sci Sleep</source>, <year>2021</year>. <volume>13</volume>: p. <fpage>1061</fpage>–<lpage>1074</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.2147/NSS.S316113" xlink:type="simple">10.2147/NSS.S316113</ext-link></comment> <object-id pub-id-type="pmid">34262377</object-id></mixed-citation></ref>
+<ref id="pone.0307120.ref025"><label>25</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Kim</surname> <given-names>S.J.</given-names></name>, <etal>et al</etal>., <article-title>Genetic association of short sleep duration with hypertension incidence—a 6-year follow-up in the Korean genome and epidemiology study</article-title>. <source>Circ J</source>, <year>2012</year>. <volume>76</volume>(<issue>4</issue>): p. <fpage>907</fpage>–<lpage>13</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1253/circj.cj-11-0713" xlink:type="simple">10.1253/circj.cj-11-0713</ext-link></comment> <object-id pub-id-type="pmid">22322875</object-id></mixed-citation></ref>
+<ref id="pone.0307120.ref026"><label>26</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Li</surname> <given-names>X.</given-names></name>, <etal>et al</etal>., <article-title>U-shaped relationships between sleep duration and metabolic syndrome and metabolic syndrome components in males: a prospective cohort study</article-title>. <source>Sleep Med</source>, <year>2015</year>. <volume>16</volume>(<issue>8</issue>): p. <fpage>949</fpage>–<lpage>54</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.sleep.2015.03.024" xlink:type="simple">10.1016/j.sleep.2015.03.024</ext-link></comment> <object-id pub-id-type="pmid">26116460</object-id></mixed-citation></ref>
+<ref id="pone.0307120.ref027"><label>27</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Sterne</surname> <given-names>J.A.</given-names></name>, <etal>et al</etal>., <article-title>Recommendations for examining and interpreting funnel plot asymmetry in meta-analyses of randomised controlled trials</article-title>. <source>Bmj</source>, <year>2011</year>. <volume>343</volume>: p. <fpage>d4002</fpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1136/bmj.d4002" xlink:type="simple">10.1136/bmj.d4002</ext-link></comment> <object-id pub-id-type="pmid">21784880</object-id></mixed-citation></ref>
+<ref id="pone.0307120.ref028"><label>28</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Cappuccio</surname> <given-names>F.P.</given-names></name>, <etal>et al</etal>., <article-title>Gender-specific associations of short sleep duration with prevalent and incident hypertension: the Whitehall II Study</article-title>. <source>Hypertension</source>, <year>2007</year>. <volume>50</volume>(<issue>4</issue>): p. <fpage>693</fpage>–<lpage>700</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1161/HYPERTENSIONAHA.107.095471" xlink:type="simple">10.1161/HYPERTENSIONAHA.107.095471</ext-link></comment> <object-id pub-id-type="pmid">17785629</object-id></mixed-citation></ref>
+<ref id="pone.0307120.ref029"><label>29</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Clark</surname> <given-names>A.J.</given-names></name>, <etal>et al</etal>., <article-title>Onset of Impaired Sleep and Cardiovascular Disease Risk Factors: A Longitudinal Study</article-title>. <source>Sleep</source>, <year>2016</year>. <volume>39</volume>(<issue>9</issue>): p. <fpage>1709</fpage>–<lpage>18</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.5665/sleep.6098" xlink:type="simple">10.5665/sleep.6098</ext-link></comment> <object-id pub-id-type="pmid">27397560</object-id></mixed-citation></ref>
+<ref id="pone.0307120.ref030"><label>30</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Kim</surname> <given-names>C.W.</given-names></name>, <etal>et al</etal>., <article-title>Changes in sleep duration and subsequent risk of hypertension in healthy adults</article-title>. <source>Sleep</source>, <year>2018</year>. <volume>41</volume>(<issue>11</issue>). <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1093/sleep/zsy159" xlink:type="simple">10.1093/sleep/zsy159</ext-link></comment> <object-id pub-id-type="pmid">30137630</object-id></mixed-citation></ref>
+<ref id="pone.0307120.ref031"><label>31</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Gangwisch</surname> <given-names>J.E.</given-names></name>, <etal>et al</etal>., <article-title>Sleep duration and risk for hypertension in women: results from the nurses’ health study</article-title>. <source>Am J Hypertens</source>, <year>2013</year>. <volume>26</volume>(<issue>7</issue>): p. <fpage>903</fpage>–<lpage>11</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1093/ajh/hpt044" xlink:type="simple">10.1093/ajh/hpt044</ext-link></comment> <object-id pub-id-type="pmid">23564028</object-id></mixed-citation></ref>
+<ref id="pone.0307120.ref032"><label>32</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Gangwisch</surname> <given-names>J.E.</given-names></name>, <etal>et al</etal>., <article-title>Short sleep duration as a risk factor for hypertension: analyses of the first National Health and Nutrition Examination Survey</article-title>. <source>Hypertension</source>, <year>2006</year>. <volume>47</volume>(<issue>5</issue>): p. <fpage>833</fpage>–<lpage>9</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1161/01.HYP.0000217362.34748.e0" xlink:type="simple">10.1161/01.HYP.0000217362.34748.e0</ext-link></comment> <object-id pub-id-type="pmid">16585410</object-id></mixed-citation></ref>
+<ref id="pone.0307120.ref033"><label>33</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Lu</surname> <given-names>Y.</given-names></name>, <etal>et al</etal>., <article-title>Lifestyle and Risk of Hypertension: Follow-Up of a Young Pre-Hypertensive Cohort</article-title>. <source>Int J Med Sci</source>, <year>2015</year>. <volume>12</volume>(<issue>7</issue>): p. <fpage>605</fpage>–<lpage>12</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.7150/ijms.12446" xlink:type="simple">10.7150/ijms.12446</ext-link></comment> <object-id pub-id-type="pmid">26283878</object-id></mixed-citation></ref>
+<ref id="pone.0307120.ref034"><label>34</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Song</surname> <given-names>Q.</given-names></name>, <etal>et al</etal>., <article-title>Age- and gender-specific associations between sleep duration and incident hypertension in a Chinese population: the Kailuan study</article-title>. <source>J Hum Hypertens</source>, <year>2016</year>. <volume>30</volume>(<issue>8</issue>): p. <fpage>503</fpage>–<lpage>7</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1038/jhh.2015.118" xlink:type="simple">10.1038/jhh.2015.118</ext-link></comment> <object-id pub-id-type="pmid">26763887</object-id></mixed-citation></ref>
+<ref id="pone.0307120.ref035"><label>35</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Lunyera</surname> <given-names>J.</given-names></name>, <etal>et al</etal>., <article-title>A prospective study of multiple sleep dimensions and hypertension risk among white, black and Hispanic/Latina women: findings from the Sister Study</article-title>. <source>Journal of hypertension</source>, <year>2021</year>. <volume>39</volume>(<issue>11</issue>): p. <fpage>2210</fpage>–<lpage>2219</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1097/HJH.0000000000002929" xlink:type="simple">10.1097/HJH.0000000000002929</ext-link></comment> <object-id pub-id-type="pmid">34620810</object-id></mixed-citation></ref>
+<ref id="pone.0307120.ref036"><label>36</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Yuan</surname> <given-names>Y.</given-names></name>, <etal>et al</etal>., <article-title>Poor sleep quality is associated with new-onset hypertension in a diverse young and middle-aged population</article-title>. <source>Sleep Med</source>, <year>2021</year>. <volume>88</volume>: p. <fpage>189</fpage>–<lpage>196</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.sleep.2021.10.021" xlink:type="simple">10.1016/j.sleep.2021.10.021</ext-link></comment> <object-id pub-id-type="pmid">34781033</object-id></mixed-citation></ref>
+<ref id="pone.0307120.ref037"><label>37</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Li</surname> <given-names>Z.H.</given-names></name>, <etal>et al</etal>., <article-title>Healthy Sleep Associated With Lower Risk of Hypertension Regardless of Genetic Risk: A Population-Based Cohort Study</article-title>. <source>Front Cardiovasc Med</source>, <year>2021</year>. <volume>8</volume>: p. <fpage>769130</fpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.3389/fcvm.2021.769130" xlink:type="simple">10.3389/fcvm.2021.769130</ext-link></comment> <object-id pub-id-type="pmid">34869684</object-id></mixed-citation></ref>
+<ref id="pone.0307120.ref038"><label>38</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Deng</surname> <given-names>H.B.</given-names></name>, <etal>et al</etal>., <article-title>Short Sleep Duration Increases Metabolic Impact in Healthy Adults: A Population-Based Cohort Study</article-title>. <source>Sleep</source>, <year>2017</year>. <volume>40</volume>(<issue>10</issue>). <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1093/sleep/zsx130" xlink:type="simple">10.1093/sleep/zsx130</ext-link></comment> <object-id pub-id-type="pmid">28977563</object-id></mixed-citation></ref>
+<ref id="pone.0307120.ref039"><label>39</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Huang</surname> <given-names>L.</given-names></name>, <etal>et al</etal>., <article-title>The Associations of Trajectory of Sleep Duration and Inflammation with Hypertension: A Longitudinal Study in China</article-title>. <source>Nat Sci Sleep</source>, <year>2021</year>. <volume>13</volume>: p. <fpage>1797</fpage>–<lpage>1806</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.2147/NSS.S329038" xlink:type="simple">10.2147/NSS.S329038</ext-link></comment> <object-id pub-id-type="pmid">34675727</object-id></mixed-citation></ref>
+<ref id="pone.0307120.ref040"><label>40</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Wang</surname> <given-names>Q.</given-names></name>, <etal>et al</etal>., <article-title>Short sleep duration is associated with hypertension risk among adults: A systematic review and meta-analysis</article-title>. <source>Hypertension Research</source>, <year>2012</year>. <volume>35</volume>(<issue>10</issue>): p. <fpage>1012</fpage>–<lpage>1018</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1038/hr.2012.91" xlink:type="simple">10.1038/hr.2012.91</ext-link></comment> <object-id pub-id-type="pmid">22763475</object-id></mixed-citation></ref>
+<ref id="pone.0307120.ref041"><label>41</label><mixed-citation publication-type="other" xlink:type="simple"><italic>Karen Grace-Martin AG</italic>. <italic>Cohort and Case-Control Studies</italic>: <italic>Pro’s and Con’s (2017)</italic>. <ext-link ext-link-type="uri" xlink:href="https://www.theanalysisfactor.com/cohort-andcase-control-studies-pros-and-cons/" xlink:type="simple">https://www.theanalysisfactor.com/cohort-andcase-control-studies-pros-and-cons/</ext-link>.</mixed-citation></ref>
+<ref id="pone.0307120.ref042"><label>42</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Grant</surname> <given-names>R.L.</given-names></name>, <article-title>Converting an odds ratio to a range of plausible relative risks for better communication of research findings</article-title>. <source>Bmj</source>, <year>2014</year>. <volume>348</volume>: p. <fpage>f7450</fpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1136/bmj.f7450" xlink:type="simple">10.1136/bmj.f7450</ext-link></comment> <object-id pub-id-type="pmid">24464277</object-id></mixed-citation></ref>
+<ref id="pone.0307120.ref043"><label>43</label><mixed-citation publication-type="other" xlink:type="simple"><ext-link ext-link-type="uri" xlink:href="https://www.theanalysisfactor.com/cohort-andcase-control-studies-pros-and-cons/" xlink:type="simple">https://www.theanalysisfactor.com/cohort-andcase-control-studies-pros-and-cons/</ext-link>, K.G.-M.A.C.a.C.-C.S.P.s.a.C.s.A.o.a.</mixed-citation></ref>
+<ref id="pone.0307120.ref044"><label>44</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Jiang</surname> <given-names>W.</given-names></name>, <etal>et al</etal>., <article-title>Association between sleep duration and high blood pressure in adolescents: a systematic review and meta-analysis</article-title>. <source>Annals of human biology</source>, <year>2018</year>. <volume>45</volume>(<issue>6–8</issue>): p. <fpage>457</fpage>–<lpage>462</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1080/03014460.2018.1535661" xlink:type="simple">10.1080/03014460.2018.1535661</ext-link></comment> <object-id pub-id-type="pmid">30387692</object-id></mixed-citation></ref>
+<ref id="pone.0307120.ref045"><label>45</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Fung</surname> <given-names>M.M.</given-names></name>, <etal>et al</etal>., <article-title>Total sleep time and other sleep characteristics measured by actigraphy do not predict incident hypertension in a cohort of community-dwelling older men</article-title>. <source>Journal of Clinical Sleep Medicine</source>, <year>2013</year>. <volume>9</volume>(<issue>6</issue>): p. <fpage>585</fpage>–<lpage>591</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.5664/jcsm.2756" xlink:type="simple">10.5664/jcsm.2756</ext-link></comment> <object-id pub-id-type="pmid">23772192</object-id></mixed-citation></ref>
+<ref id="pone.0307120.ref046"><label>46</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Carter</surname> <given-names>J.R.</given-names></name>, <etal>et al</etal>., <article-title>Sympathetic neural responses to 24-hour sleep deprivation in humans: sex differences</article-title>. <source>Am J Physiol Heart Circ Physiol</source>, <year>2012</year>. <volume>302</volume>(<issue>10</issue>): p. <fpage>H1991</fpage>–<lpage>7</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1152/ajpheart.01132.2011" xlink:type="simple">10.1152/ajpheart.01132.2011</ext-link></comment> <object-id pub-id-type="pmid">22408018</object-id></mixed-citation></ref>
+<ref id="pone.0307120.ref047"><label>47</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Oliveros</surname> <given-names>E.</given-names></name>, <etal>et al</etal>., <article-title>Hypertension in older adults: Assessment, management, and challenges</article-title>. <source>Clin Cardiol</source>, <year>2020</year>. <volume>43</volume>(<issue>2</issue>): p. <fpage>99</fpage>–<lpage>107</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1002/clc.23303" xlink:type="simple">10.1002/clc.23303</ext-link></comment> <object-id pub-id-type="pmid">31825114</object-id></mixed-citation></ref>
+</ref-list>
+</back>
+<sub-article article-type="aggregated-review-documents" id="pone.0307120.r001" specific-use="decision-letter">
+<front-stub>
+<article-id pub-id-type="doi">10.1371/journal.pone.0307120.r001</article-id>
+<title-group>
+<article-title>Decision Letter 0</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<name name-style="western">
+<surname>Ebrahimi</surname>
+<given-names>Mohammad Hossein</given-names>
+</name>
+<role>Academic Editor</role>
+</contrib>
+</contrib-group>
+<permissions>
+<copyright-year>2024</copyright-year>
+<copyright-holder>Mohammad Hossein Ebrahimi</copyright-holder>
+<license xlink:href="http://creativecommons.org/licenses/by/4.0/">
+<license-p>This is an open access article distributed under the terms of the <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+</license>
+</permissions>
+<related-object document-id="10.1371/journal.pone.0307120" document-id-type="doi" document-type="article" id="rel-obj001" link-type="peer-reviewed-article"/>
+<custom-meta-group>
+<custom-meta>
+<meta-name>Submission Version</meta-name>
+<meta-value>0</meta-value>
+</custom-meta>
+</custom-meta-group>
+</front-stub>
+<body>
+<p>
+<named-content content-type="letter-date">5 Mar 2024</named-content>
+</p>
+<p><!-- <div> -->PONE-D-23-43503<!-- </div> --><!-- <div> -->Sleep duration and hypertension incidence: Systematic review and meta-analysis<!-- </div> --><!-- <div> -->PLOS ONE</p>
+<p>Dear Dr. Soleimani,</p>
+<p>Thank you for submitting your manuscript to PLOS ONE. After careful consideration, we feel that it has merit but does not fully meet PLOS ONE’s publication criteria as it currently stands. Therefore, we invite you to submit a revised version of the manuscript that addresses the points raised during the review process.</p>
+<p>Please submit your revised manuscript by Apr 19 2024 11:59PM. If you will need more time than this to complete your revisions, please reply to this message or contact the journal office at <email xlink:type="simple">plosone@plos.org</email>. When you're ready to submit your revision, log on to <ext-link ext-link-type="uri" xlink:href="https://www.editorialmanager.com/pone/" xlink:type="simple">https://www.editorialmanager.com/pone/</ext-link> and select the 'Submissions Needing Revision' folder to locate your manuscript file.</p>
+<p>Please include the following items when submitting your revised manuscript:<!-- </div> --><list list-type="bullet"><list-item><p>A rebuttal letter that responds to each point raised by the academic editor and reviewer(s). You should upload this letter as a separate file labeled 'Response to Reviewers'.</p></list-item><list-item><p>A marked-up copy of your manuscript that highlights changes made to the original version. You should upload this as a separate file labeled 'Revised Manuscript with Track Changes'.</p></list-item><list-item><p>An unmarked version of your revised paper without tracked changes. You should upload this as a separate file labeled 'Manuscript'.</p></list-item></list></p>
+<p>If you would like to make changes to your financial disclosure, please include your updated statement in your cover letter. Guidelines for resubmitting your figure files are available below the reviewer comments at the end of this letter.</p>
+<p>If applicable, we recommend that you deposit your laboratory protocols in protocols.io to enhance the reproducibility of your results. Protocols.io assigns your protocol its own identifier (DOI) so that it can be cited independently in the future. For instructions see: <ext-link ext-link-type="uri" xlink:href="https://journals.plos.org/plosone/s/submission-guidelines#loc-laboratory-protocols" xlink:type="simple">https://journals.plos.org/plosone/s/submission-guidelines#loc-laboratory-protocols</ext-link>. Additionally, PLOS ONE offers an option for publishing peer-reviewed Lab Protocol articles, which describe protocols hosted on protocols.io. Read more information on sharing protocols at <ext-link ext-link-type="uri" xlink:href="https://plos.org/protocols?utm_medium=editorial-email&amp;utm_source=authorletters&amp;utm_campaign=protocols" xlink:type="simple">https://plos.org/protocols?utm_medium=editorial-email&amp;utm_source=authorletters&amp;utm_campaign=protocols</ext-link>.</p>
+<p>We look forward to receiving your revised manuscript.</p>
+<p>Kind regards,</p>
+<p>Mohammad Hossein Ebrahimi</p>
+<p>Academic Editor</p>
+<p>PLOS ONE</p>
+<p>Journal requirements:</p>
+<p>1. When submitting your revision, we need you to address these additional requirements.</p>
+<p>Please ensure that your manuscript meets PLOS ONE's style requirements, including those for file naming. The PLOS ONE style templates can be found at </p>
+<p><ext-link ext-link-type="uri" xlink:href="https://journals.plos.org/plosone/s/file?id=wjVg/PLOSOne_formatting_sample_main_body.pdf" xlink:type="simple">https://journals.plos.org/plosone/s/file?id=wjVg/PLOSOne_formatting_sample_main_body.pdf</ext-link> and </p>
+<p><ext-link ext-link-type="uri" xlink:href="https://journals.plos.org/plosone/s/file?id=ba62/PLOSOne_formatting_sample_title_authors_affiliations.pdf" xlink:type="simple">https://journals.plos.org/plosone/s/file?id=ba62/PLOSOne_formatting_sample_title_authors_affiliations.pdf</ext-link>.</p>
+<p>2. PLOS requires an ORCID iD for the corresponding author in Editorial Manager on papers submitted after December 6th, 2016. Please ensure that you have an ORCID iD and that it is validated in Editorial Manager. To do this, go to ‘Update my Information’ (in the upper left-hand corner of the main menu), and click on the Fetch/Validate link next to the ORCID field. This will take you to the ORCID site and allow you to create a new iD or authenticate a pre-existing iD in Editorial Manager. Please see the following video for instructions on linking an ORCID iD to your Editorial Manager account: https://www.youtube.com/watch?v=_xcclfuvtxQ".</p>
+<p>3. We noted in your submission details that a portion of your manuscript may have been presented or published elsewhere. [The article's abstract has been submitted to the "American College of Cardiology 2024" conference; however, we are still awaiting notification regarding its acceptance. It was a conference will not constitute dual publication.] Please clarify whether this conference proceeding was peer-reviewed and formally published. If this work was previously peer-reviewed and published, in the cover letter please provide the reason that this work does not constitute dual publication and should be included in the current manuscript.</p>
+<p>4. We note that you have indicated that there are restrictions to data sharing for this study. PLOS only allows data to be available upon request if there are legal or ethical restrictions on sharing data publicly. For more information on unacceptable data access restrictions, please see <ext-link ext-link-type="uri" xlink:href="http://journals.plos.org/plosone/s/data-availability#loc-unacceptable-data-access-restrictions. " xlink:type="simple">http://journals.plos.org/plosone/s/data-availability#loc-unacceptable-data-access-restrictions. </ext-link></p>
+<p>Before we proceed with your manuscript, please address the following prompts:</p>
+<p>a) If there are ethical or legal restrictions on sharing a de-identified data set, please explain them in detail (e.g., data contain potentially identifying or sensitive patient information, data are owned by a third-party organization, etc.) and who has imposed them (e.g., a Research Ethics Committee or Institutional Review Board, etc.). Please also provide contact information for a data access committee, ethics committee, or other institutional body to which data requests may be sent.</p>
+<p>b) If there are no restrictions, please upload the minimal anonymized data set necessary to replicate your study findings to a stable, public repository and provide us with the relevant URLs, DOIs, or accession numbers. For a list of recommended repositories, please see</p>
+<p><ext-link ext-link-type="uri" xlink:href="https://journals.plos.org/plosone/s/recommended-repositories" xlink:type="simple">https://journals.plos.org/plosone/s/recommended-repositories</ext-link>. You also have the option of uploading the data as Supporting Information files, but we would recommend depositing data directly to a data repository if possible.</p>
+<p>We will update your Data Availability statement on your behalf to reflect the information you provide.</p>
+<p>5. In the online submission form, you indicated that [The data underlying the results presented in the study are available on request from the author and were gathered from the published studies included in our meta-analysis.]. </p>
+<p>All PLOS journals now require all data underlying the findings described in their manuscript to be freely available to other researchers, either 1. In a public repository, 2. Within the manuscript itself, or 3. Uploaded as supplementary information.</p>
+<p>This policy applies to all data except where public deposition would breach compliance with the protocol approved by your research ethics board. If your data cannot be made publicly available for ethical or legal reasons (e.g., public availability would compromise patient privacy), please explain your reasons on resubmission and your exemption request will be escalated for approval. </p>
+<p>[Note: HTML markup is below. Please do not edit.]</p>
+<p>Reviewers' comments:</p>
+<p>Reviewer's Responses to Questions</p>
+<p><!-- <font color="black"> --><bold>Comments to the Author</bold></p>
+<p>1. Is the manuscript technically sound, and do the data support the conclusions?</p>
+<p>The manuscript must describe a technically sound piece of scientific research with data that supports the conclusions. Experiments must have been conducted rigorously, with appropriate controls, replication, and sample sizes. The conclusions must be drawn appropriately based on the data presented. <!-- </font> --></p>
+<p>Reviewer #1: Partly</p>
+<p>Reviewer #2: Partly</p>
+<p>**********</p>
+<p><!-- <font color="black"> -->2. Has the statistical analysis been performed appropriately and rigorously? <!-- </font> --></p>
+<p>Reviewer #1: Yes</p>
+<p>Reviewer #2: Yes</p>
+<p>**********</p>
+<p><!-- <font color="black"> -->3. Have the authors made all data underlying the findings in their manuscript fully available?</p>
+<p>The <ext-link ext-link-type="uri" xlink:href="http://www.plosone.org/static/policies.action#sharing" xlink:type="simple">PLOS Data policy</ext-link> requires authors to make all data underlying the findings described in their manuscript fully available without restriction, with rare exception (please refer to the Data Availability Statement in the manuscript PDF file). The data should be provided as part of the manuscript or its supporting information, or deposited to a public repository. For example, in addition to summary statistics, the data points behind means, medians and variance measures should be available. If there are restrictions on publicly sharing data—e.g. participant privacy or use of data from a third party—those must be specified.<!-- </font> --></p>
+<p>Reviewer #1: Yes</p>
+<p>Reviewer #2: Yes</p>
+<p>**********</p>
+<p><!-- <font color="black"> -->4. Is the manuscript presented in an intelligible fashion and written in standard English?</p>
+<p>PLOS ONE does not copyedit accepted manuscripts, so the language in submitted articles must be clear, correct, and unambiguous. Any typographical or grammatical errors should be corrected at revision, so please note any specific errors here.<!-- </font> --></p>
+<p>Reviewer #1: Yes</p>
+<p>Reviewer #2: Yes</p>
+<p>**********</p>
+<p><!-- <font color="black"> -->5. Review Comments to the Author</p>
+<p>Please use the space provided to explain your answers to the questions above. You may also include additional comments for the author, including concerns about dual publication, research ethics, or publication ethics. (Please upload your review as an attachment if it exceeds 20,000 characters)<!-- </font> --></p>
+<p>Reviewer #1: 1. Title: The title should be more specific and concise, indicating the focus of the study. For example, "Association Between Sleep Duration and Hypertension Incidence: A Meta-Analysis."</p>
+<p>2. Abstract:</p>
+<p>• Method: Specify the statistical methods used for pooling hazard ratios and risk ratios (e.g., DerSimonian and Laird random-effects model).</p>
+<p>• Results: Line 43 "Ranging from 2.4 to 18 years" might be better as "ranging from 2.4 to 18 years of follow-up duration."</p>
+<p>• Conclusion: The conclusion should summarize the main findings of the study and their implications for clinical practice or further research.</p>
+<p>3. Introduction:</p>
+<p>• When discussing the association between sleep duration and HTN, it would be helpful to briefly mention some of the conflicting findings in the existing literature to highlight the need for the current study.</p>
+<p>• The objectives of the study are clearly stated, but it might be beneficial to explicitly mention the primary aim of the meta-analysis (e.g., to quantify the association between sleep duration and HTN incidence) before discussing stratification by age and sex.</p>
+<p>• Consider including a brief transition at the end of the introduction to smoothly lead into the methods section, such as mentioning the need for a systematic review and meta-analysis to address the existing uncertainties.</p>
+<p>• Line 56-57: Consider rephrasing "With a worldwide prevalence estimated at 34% in men and 32% in women" to specify that these estimates pertain to the prevalence of hypertension.</p>
+<p>4. Methods:</p>
+<p>• Registration of Protocol: Specify whether the protocol was registered before the initiation of the study. Also, mention the publication date of the protocol if applicable.</p>
+<p>• Clarify the rationale behind excluding studies with a sample size of less than 30 people.</p>
+<p>• Line 127-129: Please provide references for the definitions of sleep duration utilized in the study.</p>
+<p>• When discussing outcomes, providing examples of covariates used for adjustment could enhance understanding. Additionally, specify how missing data were handled during outcome extraction.</p>
+<p>5. Discussion:</p>
+<p>• Line 226-227: The statement "To our knowledge, this meta-analysis has been the most comprehensive study that exploring the relationship between sleep duration and HTN incidence" could be revised for clarity. For instance, you could say, "This meta-analysis represents a comprehensive investigation into the relationship between sleep duration and HTN incidence, encompassing various definitions of short and long sleep durations, as well as follow-up durations.</p>
+<p>• While the discussion references previous meta-analyses and systematic reviews on the topic, it could be strengthened by providing a more detailed comparison of the current findings with those of previous studies. This would help contextualize the significance of the current study and highlight any novel contributions.</p>
+<p>• When discussing the association between short sleep duration and HTN incidence, consider elaborating on the potential clinical implications of these findings. For example, you could discuss the importance of early detection and intervention for individuals with short sleep duration to reduce their risk of developing HTN.</p>
+<p>• The limitations of the study are appropriately acknowledged in the discussion. To strengthen this section, consider providing a more detailed discussion of how these limitations may have influenced the results and interpretations. Additionally, discuss potential strategies to address these limitations in future research.</p>
+<p>• The conclusion effectively summarizes the key findings of the study and emphasizes the implications for clinical practice and future research. To enhance the conclusion, consider reinforcing the main implications of the findings and providing recommendations for future research directions or public health interventions.</p>
+<p>Reviewer #2: Hosseini et al. performed a systematic review and meta-analysis to assess the relationship between sleep duration and the risk of incident HTN. I have several minor and major comments for revision:</p>
+<p>ABSTRACT</p>
+<p>* Please highlight the comparison group in your methods.</p>
+<p>* Try to use "risk" before using "incidence" of HTN throughout the manuscript.</p>
+<p>* Use pooled "RR" instead of pooled "HR" throughout the manuscript, as you are combining different types of association measures.</p>
+<p>INTRODUCTION</p>
+<p>* Please state the clinical impressions of your study in the last paragraph of the Introduction. What problems remain unanswered? What are questions responding to?</p>
+<p>METHODS</p>
+<p>* Please check for consistency with the PRISMA guideline!</p>
+<p>* Explain your methods in more detail! How many reviewers contributed to different processes? You should also cite references regarding heterogeneity, Egger's test, etc.</p>
+<p>* The NOS assessed quality or risk of bias? These are different!</p>
+<p>RESULTS</p>
+<p>* Table 1 is not observed completely!</p>
+<p>**********</p>
+<p><!-- <font color="black"> -->6. PLOS authors have the option to publish the peer review history of their article (<ext-link ext-link-type="uri" xlink:href="https://journals.plos.org/plosone/s/editorial-and-peer-review-process#loc-peer-review-history" xlink:type="simple">what does this mean?</ext-link>). If published, this will include your full peer review and any attached files.</p>
+<p>If you choose “no”, your identity will remain anonymous but your review may still be made public.</p>
+<p><bold>Do you want your identity to be public for this peer review?</bold> For information about this choice, including consent withdrawal, please see our <ext-link ext-link-type="uri" xlink:href="https://www.plos.org/privacy-policy" xlink:type="simple">Privacy Policy</ext-link>.<!-- </font> --></p>
+<p>Reviewer #1: <bold>Yes: </bold>Faizul Akmal bin Abdul Rahim</p>
+<p>Reviewer #2: No</p>
+<p>**********</p>
+<p>[NOTE: If reviewer comments were submitted as an attachment file, they will be attached to this email and accessible via the submission site. Please log into your account, locate the manuscript record, and check for the action link "View Attachments". If this link does not appear, there are no attachment files.]</p>
+<p>While revising your submission, please upload your figure files to the Preflight Analysis and Conversion Engine (PACE) digital diagnostic tool, <ext-link ext-link-type="uri" xlink:href="https://pacev2.apexcovantage.com/" xlink:type="simple">https://pacev2.apexcovantage.com/</ext-link>. PACE helps ensure that figures meet PLOS requirements. To use PACE, you must first register as a user. Registration is free. Then, login and navigate to the UPLOAD tab, where you will find detailed instructions on how to use the tool. If you encounter any issues or have any questions when using PACE, please email PLOS at <email xlink:type="simple">figures@plos.org</email>. Please note that Supporting Information files do not need this step.</p>
+</body>
+</sub-article>
+<sub-article article-type="author-comment" id="pone.0307120.r002">
+<front-stub>
+<article-id pub-id-type="doi">10.1371/journal.pone.0307120.r002</article-id>
+<title-group>
+<article-title>Author response to Decision Letter 0</article-title>
+</title-group>
+<related-object document-id="10.1371/journal.pone.0307120" document-id-type="doi" document-type="peer-reviewed-article" id="rel-obj002" link-type="rebutted-decision-letter" object-id="10.1371/journal.pone.0307120.r001" object-id-type="doi" object-type="decision-letter"/>
+<custom-meta-group>
+<custom-meta>
+<meta-name>Submission Version</meta-name>
+<meta-value>1</meta-value>
+</custom-meta>
+</custom-meta-group>
+</front-stub>
+<body>
+<p>
+<named-content content-type="author-response-date">20 Apr 2024</named-content>
+</p>
+<p>Reviewers' comments</p>
+<p>Reviewer #1:</p>
+<p>1. Title: </p>
+<p>The title should be more specific and concise, indicating the focus of the study. For example, "Association Between Sleep Duration and Hypertension Incidence: A Meta-Analysis."</p>
+<p>Answer: Thank you so much for your valuable comment. We approved the title</p>
+<p>2. Abstract: </p>
+<p>• Method: Specify the statistical methods used for pooling hazard ratios and risk ratios (e.g., DerSimonian and Laird random-effects model).</p>
+<p>Answer: Thank you so much for your true comment. The text has been changed: line 41-42</p>
+<p>• Results: Line 43 "Ranging from 2.4 to 18 years" might be better as "ranging from 2.4 to 18 years of follow-up duration."</p>
+<p>Answer: Thank you so much for your insightful comment. The text has been changed: line 43</p>
+<p>• Conclusion: The conclusion should summarize the main findings of the study and their implications for clinical practice or further research.</p>
+<p>Answer: Your comment has been invaluable. The text has been changed: line 50-53</p>
+<p>3. Introduction:</p>
+<p>• When discussing the association between sleep duration and HTN, it would be helpful to briefly mention some of the conflicting findings in the existing literature to highlight the need for the current study.</p>
+<p>Answer: Thank you so much for your valuable comment. The text has been changed: line 71-78</p>
+<p>• The objectives of the study are clearly stated, but it might be beneficial to explicitly mention the primary aim of the meta-analysis (e.g., to quantify the association between sleep duration and HTN incidence) before discussing stratification by age and sex.</p>
+<p>Answer: Thank you for sharing your expertise. The text has been changed: line 81</p>
+<p>• Consider including a brief transition at the end of the introduction to smoothly lead into the methods section, such as mentioning the need for a systematic review and meta-analysis to address the existing uncertainties.</p>
+<p>Answer: Thank you so much for your insightful comment. The text has been changed: line 71-78</p>
+<p>• Line 56-57: Consider rephrasing "With a worldwide prevalence estimated at 34% in men and 32% in women" to specify that these estimates pertain to the prevalence of hypertension.</p>
+<p>Answer: Thank you so much for your true comment. The text has been changed: line 59-60</p>
+<p>4. Methods:</p>
+<p>• Registration of Protocol: Specify whether the protocol was registered before the initiation of the study. Also, mention the publication date of the protocol if applicable.</p>
+<p>Answer: Thank you so much for your true comment. The text has been changed: line 88</p>
+<p>• Clarify the rationale behind excluding studies with a sample size of less than 30 people.</p>
+<p>Answer: Thank you so much for your comment. The text has been changed: line 96</p>
+<p>• Line 127-129: Please provide references for the definitions of sleep duration utilized in the study.</p>
+<p>Answer: Thank you so much for your valuable comment. The text has been changed: line 140-141</p>
+<p>• When discussing outcomes, providing examples of covariates used for adjustment could enhance understanding. Additionally, specify how missing data were handled during outcome extraction.</p>
+<p>Answer: Thank you so much for your true comment. The text has been changed: line 143 and 162-165</p>
+<p>5. Discussion:</p>
+<p>• Line 226-227: The statement "To our knowledge, this meta-analysis has been the most comprehensive study that exploring the relationship between sleep duration and HTN incidence" could be revised for clarity. For instance, you could say, "This meta-analysis represents a comprehensive investigation into the relationship between sleep duration and HTN incidence, encompassing various definitions of short and long sleep durations, as well as follow-up durations.</p>
+<p>Answer: Thank you so much for the guidance. The text has been changed: line 243-245</p>
+<p>• While the discussion references previous meta-analyses and systematic reviews on the topic, it could be strengthened by providing a more detailed comparison of the current findings with those of previous studies. This would help contextualize the significance of the current study and highlight any novel contributions.</p>
+<p>Answer: Thank you so much for your constructive comment. The text has been changed: line 248-258</p>
+<p>• When discussing the association between short sleep duration and HTN incidence, consider elaborating on the potential clinical implications of these findings. For example, you could discuss the importance of early detection and intervention for individuals with short sleep duration to reduce their risk of developing HTN.</p>
+<p>Answer: Thank you so much for your thoughtful comment. The text has been changed: line 299-303</p>
+<p>• The limitations of the study are appropriately acknowledged in the discussion. To strengthen this section, consider providing a more detailed discussion of how these limitations may have influenced the results and interpretations. Additionally, discuss potential strategies to address these limitations in future research.</p>
+<p>Answer: Thank you for your guidance. The text has been changed: line 319-326</p>
+<p>• The conclusion effectively summarizes the key findings of the study and emphasizes the implications for clinical practice and future research. To enhance the conclusion, consider reinforcing the main implications of the findings and providing recommendations for future research directions or public health interventions.</p>
+<p>Answer: Thank you so much for your true comment. The text has been changed: line 330-332</p>
+<p>Reviewer #2: </p>
+<p>1. Abstract:</p>
+<p>* Please highlight the comparison group in your methods.</p>
+<p>Answer: Thank you so much for your valuable comment. The text has been changed: line 40</p>
+<p>* Try to use "risk" before using "incidence" of HTN throughout the manuscript.</p>
+<p>Answer: Thank you so much for your true comment. The text has been changed.</p>
+<p>* Use pooled "RR" instead of pooled "HR" throughout the manuscript, as you are combining different types of association measures. </p>
+<p>Answer: All of the included studies in this article used HR as their effect size for assessment, except the study conducted by Haung et al. (<ext-link ext-link-type="uri" xlink:href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8517638/" xlink:type="simple">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8517638/</ext-link>  ). Consequently, we kept HR due to its ability to consider both the incidence and the timing beside mitigating the potential confounders, therefore providing stronger support for causal relationship between different sleep durations and HTN incidence. </p>
+<p>2. Introduction:</p>
+<p>* Please state the clinical impressions of your study in the last paragraph of the Introduction. What problems remain unanswered? What are questions responding to?</p>
+<p>Answer: Thank you so much for your valuable comment. The text has been changed: line 71-78</p>
+<p>3. Methods:</p>
+<p>* Please check for consistency with the PRISMA guideline!</p>
+<p>Answer: Thank you so much for your insightful comment. We rechecked the consistency of the article with PRISMA guidelines and presented the results in S1 table.</p>
+<p>* Explain your methods in more detail! How many reviewers contributed to different processes? You should also cite references regarding heterogeneity, Egger's test, etc.</p>
+<p>Answer: Thank you so much for your guidance. The method section has been enhanced.</p>
+<p>* The NOS assessed quality or risk of bias? These are different!</p>
+<p>Answer: Thank you for your true comment. The text has been changed: line 116-117</p>
+<p>4. Results:</p>
+<p>* Table 1 is not observed completely!</p>
+<p>Answer: Thank you for your true comment. The Table 1 has been corrected.</p>
+<supplementary-material id="pone.0307120.s012" mimetype="application/vnd.openxmlformats-officedocument.wordprocessingml.document" position="float" xlink:href="info:doi/10.1371/journal.pone.0307120.s012" xlink:type="simple">
+<label>Attachment</label>
+<caption>
+<p>Submitted filename: <named-content content-type="submitted-filename">Response to Reviewers.docx</named-content></p>
+</caption>
+</supplementary-material>
+</body>
+</sub-article>
+<sub-article article-type="aggregated-review-documents" id="pone.0307120.r003" specific-use="decision-letter">
+<front-stub>
+<article-id pub-id-type="doi">10.1371/journal.pone.0307120.r003</article-id>
+<title-group>
+<article-title>Decision Letter 1</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<name name-style="western">
+<surname>Ebrahimi</surname>
+<given-names>Mohammad Hossein</given-names>
+</name>
+<role>Academic Editor</role>
+</contrib>
+</contrib-group>
+<permissions>
+<copyright-year>2024</copyright-year>
+<copyright-holder>Mohammad Hossein Ebrahimi</copyright-holder>
+<license xlink:href="http://creativecommons.org/licenses/by/4.0/">
+<license-p>This is an open access article distributed under the terms of the <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+</license>
+</permissions>
+<related-object document-id="10.1371/journal.pone.0307120" document-id-type="doi" document-type="article" id="rel-obj003" link-type="peer-reviewed-article"/>
+<custom-meta-group>
+<custom-meta>
+<meta-name>Submission Version</meta-name>
+<meta-value>1</meta-value>
+</custom-meta>
+</custom-meta-group>
+</front-stub>
+<body>
+<p>
+<named-content content-type="letter-date">20 Jun 2024</named-content>
+</p>
+<p>Association between sleep duration and hypertension incidence: Systematic review and meta-analysis of cohort studies</p>
+<p>PONE-D-23-43503R1</p>
+<p>Dear Dr. Soleimani,</p>
+<p>We’re pleased to inform you that your manuscript has been judged scientifically suitable for publication and will be formally accepted for publication once it meets all outstanding technical requirements.</p>
+<p>Within one week, you’ll receive an e-mail detailing the required amendments. When these have been addressed, you’ll receive a formal acceptance letter and your manuscript will be scheduled for publication.</p>
+<p>An invoice will be generated when your article is formally accepted. Please note, if your institution has a publishing partnership with PLOS and your article meets the relevant criteria, all or part of your publication costs will be covered. Please make sure your user information is up-to-date by logging into Editorial Manager at <ext-link ext-link-type="uri" xlink:href="https://www.editorialmanager.com/pone/" xlink:type="simple">Editorial Manager®</ext-link> and clicking the ‘Update My Information' link at the top of the page. If you have any questions relating to publication charges, please contact our Author Billing department directly at <email xlink:type="simple">authorbilling@plos.org</email>.</p>
+<p>If your institution or institutions have a press office, please notify them about your upcoming paper to help maximize its impact. If they’ll be preparing press materials, please inform our press team as soon as possible -- no later than 48 hours after receiving the formal acceptance. Your manuscript will remain under strict press embargo until 2 pm Eastern Time on the date of publication. For more information, please contact <email xlink:type="simple">onepress@plos.org</email>.</p>
+<p>Kind regards,</p>
+<p>Mohammad Hossein Ebrahimi</p>
+<p>Academic Editor</p>
+<p>PLOS ONE</p>
+<p>Additional Editor Comments (optional):</p>
+<p>Reviewers' comments:</p>
+<p>Reviewer's Responses to Questions</p>
+<p><!-- <font color="black"> --><bold>Comments to the Author</bold></p>
+<p>1. If the authors have adequately addressed your comments raised in a previous round of review and you feel that this manuscript is now acceptable for publication, you may indicate that here to bypass the “Comments to the Author” section, enter your conflict of interest statement in the “Confidential to Editor” section, and submit your "Accept" recommendation.<!-- </font> --></p>
+<p>Reviewer #2: All comments have been addressed</p>
+<p>Reviewer #3: All comments have been addressed</p>
+<p>Reviewer #4: All comments have been addressed</p>
+<p>**********</p>
+<p><!-- <font color="black"> -->2. Is the manuscript technically sound, and do the data support the conclusions?</p>
+<p>The manuscript must describe a technically sound piece of scientific research with data that supports the conclusions. Experiments must have been conducted rigorously, with appropriate controls, replication, and sample sizes. The conclusions must be drawn appropriately based on the data presented. <!-- </font> --></p>
+<p>Reviewer #2: Yes</p>
+<p>Reviewer #3: Yes</p>
+<p>Reviewer #4: Yes</p>
+<p>**********</p>
+<p><!-- <font color="black"> -->3. Has the statistical analysis been performed appropriately and rigorously? <!-- </font> --></p>
+<p>Reviewer #2: Yes</p>
+<p>Reviewer #3: Yes</p>
+<p>Reviewer #4: Yes</p>
+<p>**********</p>
+<p><!-- <font color="black"> -->4. Have the authors made all data underlying the findings in their manuscript fully available?</p>
+<p>The <ext-link ext-link-type="uri" xlink:href="http://www.plosone.org/static/policies.action#sharing" xlink:type="simple">PLOS Data policy</ext-link> requires authors to make all data underlying the findings described in their manuscript fully available without restriction, with rare exception (please refer to the Data Availability Statement in the manuscript PDF file). The data should be provided as part of the manuscript or its supporting information, or deposited to a public repository. For example, in addition to summary statistics, the data points behind means, medians and variance measures should be available. If there are restrictions on publicly sharing data—e.g. participant privacy or use of data from a third party—those must be specified.<!-- </font> --></p>
+<p>Reviewer #2: Yes</p>
+<p>Reviewer #3: Yes</p>
+<p>Reviewer #4: Yes</p>
+<p>**********</p>
+<p><!-- <font color="black"> -->5. Is the manuscript presented in an intelligible fashion and written in standard English?</p>
+<p>PLOS ONE does not copyedit accepted manuscripts, so the language in submitted articles must be clear, correct, and unambiguous. Any typographical or grammatical errors should be corrected at revision, so please note any specific errors here.<!-- </font> --></p>
+<p>Reviewer #2: (No Response)</p>
+<p>Reviewer #3: Yes</p>
+<p>Reviewer #4: Yes</p>
+<p>**********</p>
+<p><!-- <font color="black"> -->6. Review Comments to the Author</p>
+<p>Please use the space provided to explain your answers to the questions above. You may also include additional comments for the author, including concerns about dual publication, research ethics, or publication ethics. (Please upload your review as an attachment if it exceeds 20,000 characters)<!-- </font> --></p>
+<p>Reviewer #2: Thanks for your revisions. All comments have been addressed. Your revised manuscript is acceptable now.</p>
+<p>Reviewer #3: The manuscript is rather interesting and novel. Well presented and statistical analysis was adequate.</p>
+<p>The association between sleep duration and hypertension is clinically significant and short duration of sleep was associated</p>
+<p>As expected with increased incidence of htn. The results should be published.</p>
+<p>Reviewer #4: Manuscript has been published in JACC already: SLEEP DURATION AND HYPERTENSION INCIDENCE: SYSTEMATIC REVIEW AND META-ANALYSIS</p>
+<p>OPEN ACCESS</p>
+<p>Prevention And Health Promotion</p>
+<p>Aayushi Sood, Kaveh Hosseini, Hamidreza Soleimani, Kiarash Tavakoli, Narges Heydari, Yasmim Fravash, Mani Khorsand Askari, Akshit Sood, Kimia Najafi, Rahul Gupta, Kazem Rahimi, and Diaa A. Hakim</p>
+<p>J Am Coll Cardio. 2024 Apr, 83 (13_Supplement) 1877</p>
+<p>**********</p>
+<p><!-- <font color="black"> -->7. PLOS authors have the option to publish the peer review history of their article (<ext-link ext-link-type="uri" xlink:href="https://journals.plos.org/plosone/s/editorial-and-peer-review-process#loc-peer-review-history" xlink:type="simple">what does this mean?</ext-link>). If published, this will include your full peer review and any attached files.</p>
+<p>If you choose “no”, your identity will remain anonymous but your review may still be made public.</p>
+<p><bold>Do you want your identity to be public for this peer review?</bold> For information about this choice, including consent withdrawal, please see our <ext-link ext-link-type="uri" xlink:href="https://www.plos.org/privacy-policy" xlink:type="simple">Privacy Policy</ext-link>.<!-- </font> --></p>
+<p>Reviewer #2: No</p>
+<p>Reviewer #3: <bold>Yes: </bold>Dimitrios Afendoulis</p>
+<p>Reviewer #4: No</p>
+<p>**********</p>
+</body>
+</sub-article>
+<sub-article article-type="editor-report" id="pone.0307120.r004" specific-use="acceptance-letter">
+<front-stub>
+<article-id pub-id-type="doi">10.1371/journal.pone.0307120.r004</article-id>
+<title-group>
+<article-title>Acceptance letter</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<name name-style="western">
+<surname>Ebrahimi</surname>
+<given-names>Mohammad Hossein</given-names>
+</name>
+<role>Academic Editor</role>
+</contrib>
+</contrib-group>
+<permissions>
+<copyright-year>2024</copyright-year>
+<copyright-holder>Mohammad Hossein Ebrahimi</copyright-holder>
+<license xlink:href="http://creativecommons.org/licenses/by/4.0/">
+<license-p>This is an open access article distributed under the terms of the <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+</license>
+</permissions>
+<related-object document-id="10.1371/journal.pone.0307120" document-id-type="doi" document-type="article" id="rel-obj004" link-type="peer-reviewed-article"/>
+</front-stub>
+<body>
+<p>
+<named-content content-type="letter-date">2 Jul 2024</named-content>
+</p>
+<p>PONE-D-23-43503R1 </p>
+<p>PLOS ONE</p>
+<p>Dear Dr.  Soleimani, </p>
+<p>I'm pleased to inform you that your manuscript has been deemed suitable for publication in PLOS ONE. Congratulations! Your manuscript is now being handed over to our production team.</p>
+<p>At this stage, our production department will prepare your paper for publication. This includes ensuring the following:</p>
+<p>* All references, tables, and figures are properly cited</p>
+<p>* All relevant supporting information is included in the manuscript submission,</p>
+<p>* There are no issues that prevent the paper from being properly typeset</p>
+<p>If revisions are needed, the production department will contact you directly to resolve them. If no revisions are needed, you will receive an email when the publication date has been set. At this time, we do not offer pre-publication proofs to authors during production of the accepted work. Please keep in mind that we are working through a large volume of accepted articles, so please give us a few weeks to review your paper and let you know the next and final steps. </p>
+<p>Lastly, if your institution or institutions have a press office, please let them know about your upcoming paper now to help maximize its impact. If they'll be preparing press materials, please inform our press team within the next 48 hours. Your manuscript will remain under strict press embargo until 2 pm Eastern Time on the date of publication. For more information, please contact <email xlink:type="simple">onepress@plos.org</email>.</p>
+<p>If we can help with anything else, please email us at <email xlink:type="simple">customercare@plos.org</email>.</p>
+<p>Thank you for submitting your work to PLOS ONE and supporting open access. </p>
+<p>Kind regards, </p>
+<p>PLOS ONE Editorial Office Staff</p>
+<p>on behalf of</p>
+<p>Dr. Mohammad Hossein Ebrahimi </p>
+<p>Academic Editor</p>
+<p>PLOS ONE</p>
+</body>
+</sub-article>
+</article>

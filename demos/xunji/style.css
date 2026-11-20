@@ -66,3 +66,24 @@ main { padding-top:24px; }
 .first-aid ol { padding-left:20px; }
 .first-aid li { margin-bottom:8px; }
 .first-aid .first-aid-sources { font-size:12px; margin:10px 0 0; }
+
+.product-nav { display:flex; flex-wrap:wrap; gap:4px 20px; margin:0 0 16px; }
+.product-nav a { display:inline-flex; align-items:center; min-height:44px; color:var(--blue); font-size:14px; font-weight:650; text-decoration:none; }
+.product-nav a:hover { text-decoration:underline; }
+.conversation { max-height:none; overflow:visible; }
+.conversation .message { min-width:0; }
+.conversation .message h3:first-child { margin-top:0; }
+.citation { display:inline-block; padding:0 4px; color:var(--blue); }
+.message article { scroll-margin-top:18px; padding:10px 12px; background:var(--paper); border-left:3px solid #83acc9; border-radius:6px; }
+.message article:target { outline:2px solid var(--blue); }
+.message article details, .library article details { margin:3px 0; border:0; }
+.message article summary, .library article summary { min-height:36px; padding:6px 0; }
+.message article a, .library article a { font-weight:650; }
+.message article small, .library article small { overflow-wrap:anywhere; }
+@media(max-width:420px){ .product-nav { gap:0 13px; } .product-nav a { font-size:13px; } }
+
+.questions .examples { margin:10px 0 0; }
+.conversation { min-height:0; margin-top:16px; }
+.conversation:empty { margin-top:0; }
+.hero-copy { padding-block:clamp(20px,2.7vw,35px); }
+@media(max-width:740px){ .hero-copy { padding-block:18px; } }
