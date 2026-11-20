@@ -2,12 +2,12 @@
   {
     "id": "drug-safety",
     "name": "药物安全助手",
-    "cover": "drug-safety-current.webp",
+    "cover": "drug-safety-rag-home.webp",
     "en": "Drug Safety Intelligence",
     "cat": "Healthcare AI",
     "kind": "AI",
-    "desc": "让药物安全问题，回答有据可循。",
-    "intro": "面向 GLP-1、PD-1/PD-L1 与 ADC 的药物安全问题，连接文献检索、结构化回答与原文溯源。",
+    "desc": "直接提问药物风险，查看回答所依据的文献与说明书。",
+    "intro": "以药物安全 AI 问答为首页，基于公开文献和美国药品说明书生成带引用的回答。可进入安全知识库、药物档案、临床试验和研究报告。",
     "tags": [
       "文献证据检索",
       "引用与页码溯源",
@@ -16,32 +16,36 @@
     "tech": [
       "RAG",
       "DeepSeek",
-      "FastAPI"
+      "Cloudflare Workers"
     ],
     "url": "https://fdd77931-arch.github.io/drug-safety-assistant/",
     "cta": "体验产品",
     "color": "cyan",
     "metrics": [
       [
-        "56",
-        "份原始文献"
+        "38",
+        "篇开放文献"
       ],
       [
-        "1,327",
-        "个结构化片段"
+        "2",
+        "份说明书节选"
+      ],
+      [
+        "770",
+        "个检索片段"
       ]
     ],
-    "scope": "公开网页为关键词检索演示版；简历所述完整工程版本采用混合检索链路。",
+    "scope": "公开版采用 BM25 与中英文别名检索。说明书内容按美国标签列示，相关资料供研究核查。",
     "flow": [
       "文献解析与质控",
       "章节感知切片",
-      "混合检索与重排",
+      "BM25 与别名检索",
       "循证生成",
       "引用溯源"
     ],
     "challenge": "药物安全信息分散在研究文献中，需要把回答与可核查的证据连接起来。",
-    "result": "完成知识组织、检索与循证回答的工程实践。文献与片段数量来自本人简历，当前展示未重新运行完整评测。",
-    "image": "assets/drug-safety-current.webp"
+    "result": "公开版支持文献页码与官方说明书溯源，可收藏片段并导出研究报告草稿。",
+    "image": "assets/drug-safety-rag-home.webp"
   },
   {
     "id": "hbv-insights",
