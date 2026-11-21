@@ -278,5 +278,52 @@
     "challenge": "分散表格中的名称差异与混填，增加了回收和汇总成本。",
     "result": "围绕 7 个区域、31 省、150 城的终端数据开展治理，并实现静态网页与 Supabase 的数字化交付。",
     "image": "assets/terminal-screen.webp"
+  },
+  {
+    "id": "forest-evolution",
+    "name": "森林进化论",
+    "en": "Forest Evolution",
+    "cat": "Interactive Game / Web Game",
+    "kind": "Game",
+    "desc": "合并森林动物，从瓢虫出发，解锁图鉴并遇见森林之王。",
+    "intro": "一款以经典 2048 合并机制为基础的森林动物进化游戏。合并同级动物，从一只瓢虫出发，逐步解锁 11 种动物，最终遇见森林之王。",
+    "tags": [
+      "动物进化",
+      "收集图鉴",
+      "触屏与键盘"
+    ],
+    "tech": [
+      "JavaScript ES Modules",
+      "Web Audio",
+      "LocalStorage"
+    ],
+    "url": "demos/forest-evolution/",
+    "cta": "在线游玩",
+    "color": "mint",
+    "cover": "forest-evolution-preview.webp",
+    "metrics": [
+      [
+        "11",
+        "个动物等级"
+      ],
+      [
+        "4 × 4",
+        "棋盘"
+      ],
+      [
+        "3",
+        "种输入方式"
+      ]
+    ],
+    "scope": "单人益智游戏，进度保存在当前浏览器。",
+    "flow": [
+      "移动棋盘",
+      "合并同级动物",
+      "解锁图鉴",
+      "合成森林之王"
+    ],
+    "challenge": "在四向移动的固定规则内，给每一级动物清晰的视觉识别和即时反馈。",
+    "result": "完整实现四向操作、解锁、撤销、存档、终局与继续探索。",
+    "image": "assets/forest-evolution-preview.webp"
   }
 ]

@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#F6F1E7">
+  <meta name="description" content="森林进化论是一款森林动物合并游戏。从瓢虫开始，解锁 11 种动物，合成森林之王。">
+  <title>森林进化论 · Forest Evolution</title>
+  <link rel="icon" type="image/webp" href="assets/animals/ladybug.webp">
+  <link rel="stylesheet" href="style.css">
+  <script type="module" src="app.mjs"></script>
+</head>
+<body>
+  <a class="skip" href="#board">跳到棋盘</a>
+  <header class="site-head">
+    <div class="site-bar">
+      <a class="wordmark" href="./" aria-label="森林进化论主页">
+        <span class="brand-mark"><img src="assets/animals/ladybug.webp" alt=""></span>
+        <span lang="en">Forest Evolution</span>
+      </a>
+      <nav aria-label="页面导航">
+        <button class="text-button" data-open="rules">玩法</button>
+        <a href="../../forest-evolution.html">作品集 <span aria-hidden="true">↗</span></a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="layout">
+    <section class="intro" aria-labelledby="title">
+      <div class="intro-copy">
+        <h1 id="title">森林<span>进化论</span></h1>
+        <p class="tagline" lang="en">Merge · Evolve · Discover</p>
+        <p>从一只小瓢虫出发，把相同的动物合在一起，遇见森林里的下一位伙伴。</p>
+      </div>
+    </section>
+
+    <section class="tabletop" aria-label="森林动物合并游戏">
+      <dl class="scores" aria-label="本局成绩">
+        <div><dt>当前分数</dt><dd id="score">0</dd></div>
+        <div><dt>历史最高</dt><dd id="best">0</dd></div>
+        <div class="level-score"><dt>本局最高</dt><dd id="highest">Lv. 1</dd></div>
+      </dl>
+
+      <div class="board-label">
+        <span>森林棋盘</span>
+        <span class="board-hint" id="controls-hint">方向键 · 滑动 · 按住拖动</span>
+      </div>
+      <div id="board" class="board" tabindex="0" role="group" aria-label="4 × 4 棋盘" aria-describedby="controls-hint">
+        <div id="slots" class="board-layer" aria-hidden="true"></div>
+        <div id="pieces" class="board-layer"></div>
+      </div>
+
+      <div class="tools">
+        <div class="direction-pad" role="group" aria-label="鼠标方向控制">
+          <button type="button" data-direction="left" aria-label="向左">←</button>
+          <button type="button" data-direction="up" aria-label="向上">↑</button>
+          <button type="button" data-direction="down" aria-label="向下">↓</button>
+          <button type="button" data-direction="right" aria-label="向右">→</button>
+        </div>
+        <div class="game-actions">
+          <button type="button" id="undo" title="撤销上一步"><span aria-hidden="true">↶</span> 撤销</button>
+          <button type="button" data-open="restart" title="重新开始"><span aria-hidden="true">↻</span> 重开</button>
+          <button type="button" id="sound" aria-pressed="false" title="音效开关"><span aria-hidden="true">♪</span> <span id="sound-label">音效关</span></button>
+        </div>
+      </div>
+      <button id="ended" class="ended" data-open="over" hidden>本局结束 · 查看成绩 <span aria-hidden="true">↗</span></button>
+      <p class="sr-only" role="status" aria-live="polite" id="announcement"></p>
+    </section>
+
+    <aside class="journal" aria-labelledby="journal-title">
+      <div class="journal-heading"><h2 id="journal-title">进化手账</h2><span id="collection-count">1 / 11</span></div>
+      <progress id="progress" value="1" max="11" aria-label="已发现的动物"></progress>
+      <div class="next" id="next"></div>
+      <ol class="trail" id="trail" aria-label="最近的进化等级"></ol>
+      <button class="primary dex-link" data-open="dex">打开动物图鉴 <span aria-hidden="true">↗</span></button>
+    </aside>
+  </main>
+
+  <footer class="site-footer">
+    <span lang="en">Forest Evolution</span><span>进度保存在此浏览器</span>
+  </footer>
+
+  <dialog id="dex" class="dialog dex-dialog" aria-labelledby="dex-title">
+    <header class="dialog-head">
+      <div><h2 id="dex-title">动物图鉴</h2><p lang="en">Animal Encyclopedia</p></div>
+      <button class="close" data-close aria-label="关闭图鉴">×</button>
+    </header>
+    <p id="dex-summary" class="dex-summary"></p>
+    <div id="dex-list" class="dex-list"></div>
+  </dialog>
+
+  <dialog id="rules" class="dialog" aria-labelledby="rules-title">
+    <header class="dialog-head"><h2 id="rules-title">怎么玩</h2><button class="close" data-close aria-label="关闭规则">×</button></header>
+    <ol class="rules">
+      <li>用方向键、下方方向按钮，或在棋盘上拖动、滑动。所有动物会向同一方向移动。</li>
+      <li>两只同级动物相遇就会进化。同一只动物在一步内只合并一次。</li>
+      <li>每次有效移动会出现一只低等级动物。合并会得分，新物种会留在图鉴里。</li>
+      <li>合成 Lv. 11 森林之王即可通关。你可以继续挑战分数，直到棋盘无法再移动。</li>
+    </ol>
+    <button class="primary" data-close>回到棋盘</button>
+  </dialog>
+
+  <dialog id="restart" class="dialog" aria-labelledby="restart-title">
+    <header class="dialog-head"><h2 id="restart-title">开始新一局？</h2><button class="close" data-close aria-label="取消重开">×</button></header>
+    <p>新一局从两只瓢虫开始。历史最高分和图鉴收藏会保留。</p>
+    <div class="modal-actions"><button data-close>取消</button><button class="primary" data-restart>重新开始</button></div>
+  </dialog>
+
+  <dialog id="over" class="dialog result-dialog" aria-labelledby="over-title">
+    <button class="close" data-close aria-label="关闭本局成绩">×</button>
+    <div class="result-art"><img id="over-animal" alt=""></div>
+    <h2 id="over-title">森林暂歇</h2>
+    <p>棋盘已经没有可以移动或合并的动物。</p>
+    <dl class="result-scores" id="over-scores"></dl>
+    <div class="modal-actions"><button data-close data-undo>撤销一步</button><button class="primary" data-restart>再玩一局</button></div>
+  </dialog>
+
+  <dialog id="win" class="dialog result-dialog is-win" aria-labelledby="win-title">
+    <button class="close" data-close aria-label="关闭通关成绩">×</button>
+    <div class="result-art"><img src="assets/animals/forest-king.webp" alt="戴着叶冠的狮子"></div>
+    <p class="result-kicker" lang="en">Forest King · Lv. 11</p>
+    <h2 id="win-title">森林之王</h2>
+    <p>你完成了最终进化，狮子已收入图鉴。</p>
+    <dl class="result-scores" id="win-scores"></dl>
+    <div class="modal-actions"><button data-open="dex">查看图鉴</button><button class="primary" data-close>继续探索</button></div>
+  </dialog>
+
+  <div id="toast" class="toast" hidden>
+    <img id="toast-art" alt=""><div><strong id="toast-name"></strong><span>已加入动物图鉴</span></div>
+  </div>
+  <noscript><p>启用 JavaScript 后即可在此浏览器游玩。</p></noscript>
+</body>
+</html>

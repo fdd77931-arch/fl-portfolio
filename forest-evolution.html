@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#101116">
+  <meta name="description" content="森林进化论是一款森林动物合并游戏。从瓢虫开始，解锁 11 种动物，合成森林之王。">
+  <meta property="og:title" content="森林进化论 · Forest Evolution — FL. Portfolio">
+  <meta property="og:image" content="assets/forest-evolution-preview.webp">
+  <title>森林进化论 · Forest Evolution — FL. Portfolio</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+  <script defer src="app.js"></script>
+</head>
+<body>
+<a class="skip" href="#main">跳到主要内容</a>
+<header class="nav">
+  <a class="logo" href="index.html" aria-label="FL 首页">FL<span>.</span></a>
+  <nav aria-label="主导航">
+    <a class="paw-link" href="index.html#works"><span class="paw-icon" aria-hidden="true"></span>项目</a>
+    <a class="paw-link" href="index.html#about"><span class="paw-icon" aria-hidden="true"></span>关于</a>
+    <a class="paw-link" href="index.html#experience"><span class="paw-icon" aria-hidden="true"></span>经历</a>
+    <a class="paw-link" href="index.html#contact"><span class="paw-icon" aria-hidden="true"></span>联系</a>
+  </nav>
+  <button class="menu" aria-label="展开导航" aria-expanded="false">菜单</button>
+</header>
+<main id="main" class="case-page">
+  <a class="back paw-link" href="index.html#works" id="top"><span class="paw-icon" aria-hidden="true"></span>返回作品</a>
+  <div class="case-title">
+    <p class="eyebrow">Interactive Game / Forest Evolution</p>
+    <h1>森林进化论</h1>
+    <p>一款以经典 2048 合并机制为基础的森林动物进化游戏。合并同级动物，从一只瓢虫出发，逐步解锁 11 种动物，最终遇见森林之王。</p>
+    <div class="case-actions">
+      <a class="demo paw-link" href="demos/forest-evolution/" target="_blank" rel="noopener noreferrer"><span class="paw-icon" aria-hidden="true"></span>在线游玩</a>
+      <div class="tags"><span>Web Game</span><span>原创动物插画</span><span>响应式交互</span></div>
+    </div>
+  </div>
+  <a class="case-cover case-cover-link mint" href="demos/forest-evolution/" target="_blank" rel="noopener noreferrer" aria-label="打开森林进化论游戏">
+    <div class="window-stage mint">
+      <div class="browser-window">
+        <div class="window-toolbar"><span class="window-dots"><i></i><i></i><i></i></span><span class="window-address">Forest Evolution</span><span class="window-icon">↗</span></div>
+        <img src="assets/forest-evolution-preview.webp" alt="森林进化论实机截图，棋盘已解锁蝴蝶和松鼠">
+      </div>
+      <span class="window-caption">真实游戏界面</span><span class="window-open">点击游玩</span>
+    </div>
+    <span class="paw-badge cover-paw" aria-hidden="true"><span class="paw-icon" aria-hidden="true"></span></span>
+  </a>
+  <div class="case-body">
+    <aside>
+      <p>项目案例</p>
+      <a class="paw-link" href="#overview"><span class="paw-icon" aria-hidden="true"></span>玩法与目标</a>
+      <a class="paw-link" href="#design"><span class="paw-icon" aria-hidden="true"></span>美术与交互</a>
+      <a class="paw-link" href="#architecture"><span class="paw-icon" aria-hidden="true"></span>技术实现</a>
+    </aside>
+    <div>
+      <section id="overview">
+        <p class="eyebrow">Gameplay</p>
+        <h2>从一只瓢虫到森林之王。</h2>
+        <p>每一步让棋盘上的动物一起移动。两只同级动物相遇就会进化。每次棋盘发生变化，就会在空格里出现一只低等级动物。森林手账提示下一项发现，图鉴记录历次解锁。合成戴叶冠的狮子后，可以继续挑战分数。</p>
+        <div class="metrics"><div><strong>4 × 4</strong><span>棋盘</span></div><div><strong>11</strong><span>动物等级</span></div></div>
+      </section>
+      <section id="design">
+        <p class="eyebrow">Art &amp; Interaction</p>
+        <h2>把棋盘做成一张森林手账。</h2>
+        <p>奶油纸色、鼠尾草绿、木框和水粉质感动物构成游戏的视觉语言。低等级用简单轮廓辨认，高等级靠体型、尾巴、条纹和叶冠区分。合并让棋子滑入并轻弹，首次发现会亮起图鉴里的动物。</p>
+        <ul class="feature-list"><li><span>↗</span>原创动物插画</li><li><span>↗</span>剪影与图鉴解锁</li><li><span>↗</span>狮子通关动画</li></ul>
+      </section>
+      <section id="architecture">
+        <p class="eyebrow">Implementation</p>
+        <h2>打开网页就能游玩。</h2>
+        <ol class="flow"><li>方向键、鼠标或触屏输入</li><li>纯逻辑计算移动、合并和分数</li><li>播放动画并保存进度</li></ol>
+        <p>JavaScript 模块将棋盘规则、动物配置和页面交互分开。LocalStorage 保存棋局、最高分、图鉴和音效设置。音效由 Web Audio 生成。</p>
+        <a class="demo paw-link" href="demos/forest-evolution/" target="_blank" rel="noopener noreferrer"><span class="paw-icon" aria-hidden="true"></span>进入森林</a>
+      </section>
+    </div>
+  </div>
+</main>
+<footer>
+  <a class="logo" href="index.html">FL<span>.</span></a><p>方璐 · 个人作品集</p><span>© 2026 FL. Portfolio</span>
+  <a class="footer-top paw-link" href="#top"><span class="paw-icon" aria-hidden="true"></span>回到顶部</a>
+</footer>
+</body>
+</html>
