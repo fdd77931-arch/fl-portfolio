@@ -300,7 +300,7 @@
     "url": "demos/forest-evolution/",
     "cta": "在线游玩",
     "color": "mint",
-    "cover": "forest-evolution-preview.webp",
+    "cover": "forest-evolution-live.webp",
     "metrics": [
       [
         "11",
@@ -324,6 +324,6 @@
     ],
     "challenge": "在四向移动的固定规则内，给每一级动物清晰的视觉识别和即时反馈。",
     "result": "完整实现四向操作、解锁、撤销、存档、终局与继续探索。",
-    "image": "assets/forest-evolution-preview.webp"
+    "image": "assets/forest-evolution-live.webp"
   }
 ]

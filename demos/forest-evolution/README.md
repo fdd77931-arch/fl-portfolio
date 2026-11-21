@@ -16,7 +16,7 @@
 
 奶油纸色、橡木棋盘、森林绿按钮和固定位置的等级角标。桌面并排显示森林插画、棋盘与进化手账。窄屏先显示简化的标题区和可滑动棋盘，手账随内容下移。图鉴、游戏结束与最终进化各有独立的对话框。
 
-森林场景和 11 个透明动物形象使用 OpenAI 内建 ImageGen 生成。动物按 4 × 3 图集生成后逐格裁切为透明 WebP。素材统一采用带纸张颗粒的水粉风格，形象细节从瓢虫逐步增加到叶冠狮子。素材保存在 `assets/`。作品集封面取自浏览器中的实际游戏画面。
+森林场景和 11 个透明动物形象使用 OpenAI 内建 ImageGen 生成。动物按 4 × 3 图集生成后逐格裁切为透明 WebP。素材统一采用带纸张颗粒的水粉风格，形象细节从瓢虫逐步增加到叶冠狮子。素材保存在 `assets/`。作品集封面取自 GitHub Pages 的公开游戏画面。
 
 操作规则参考经典 2048 的四向移动、合并和终局定义。游玩入口与作品集案例沿用原网站的静态路由和项目卡结构。 [2048 在线演示](https://play2048.co/) · [2048 项目](https://github.com/gabrielecirulli/2048) · [Zoo Forest 导览](https://zoo-forest.com/)
 
@@ -42,4 +42,4 @@ node --test demos/forest-evolution/tests/*.test.mjs
 
 ## 发布
 
-作品集由 GitHub Pages 从 `main` 根目录发布。项目入口是 `index.html` 新增的游戏卡片和 `forest-evolution.html` 案例页。两处封面共用 `assets/forest-evolution-preview.webp`，并链接至 `demos/forest-evolution/`。新增的项目元数据位于 `projects.json`。
+作品集由 GitHub Pages 从 `main` 根目录发布。项目入口是 `index.html` 新增的游戏卡片和 `forest-evolution.html` 案例页。两处封面共用 `assets/forest-evolution-live.webp`，并链接至 `demos/forest-evolution/`。新增的项目元数据位于 `projects.json`。
