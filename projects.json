@@ -1,5 +1,39 @@
 [
   {
+    "id": "healthinvest",
+    "name": "HealthInvest AI",
+    "cover": "healthinvest-terminal.webp",
+    "en": "Healthcare Investment Research",
+    "cat": "Research AI",
+    "kind": "Research",
+    "desc": "从 GLP-1 临床证据到药企财报，比较同业表现，测算估值情景。",
+    "intro": "连接美国肥胖症研究、药物试验与上市公司财报，在同一工作台核对临床证据、比较企业增长与盈利，并按自己的假设测算股权市值。",
+    "tags": [
+      "行业比较",
+      "财务趋势",
+      "估值情景"
+    ],
+    "tech": [
+      "Next.js",
+      "SEC EDGAR",
+      "Cloudflare Workers"
+    ],
+    "url": "https://fdd77931-arch.github.io/healthinvest-ai/",
+    "cta": "打开研究终端",
+    "color": "mint",
+    "metrics": [],
+    "scope": "年度财务数据按原币列示。P/S 为使用者假设。",
+    "flow": [
+      "比较临床登记",
+      "查看年报",
+      "设定估值假设",
+      "保存研究草稿"
+    ],
+    "challenge": "同一研究问题常需跨临床登记与财报核对，且两家公司报告币种不同。",
+    "result": "以同币种增速、净利率和来源链接支持比较，模型回答可附来源加入研究草稿。",
+    "image": "assets/healthinvest-terminal.webp"
+  },
+  {
     "id": "drug-safety",
     "name": "药物安全助手",
     "cover": "drug-safety-rag-home.webp",
